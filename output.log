@@ -1,0 +1,1048 @@
+this is running on memex-2015-002.obshpc.carnegiescience.edu
+[2026-06-18T15:27:58.006] error: *** JOB 114071 ON memex-2015-002 CANCELLED AT 2026-06-18T15:27:58 DUE TO TIME LIMIT ***
+/var/spool/slurmd/job117286/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117306/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117308/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117311/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117312/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117730/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117730/slurm_script: line 19: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117803/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117803/slurm_script: line 19: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117803/slurm_script: line 29: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117803/slurm_script: line 39: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117831/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117831/slurm_script: line 19: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117831/slurm_script: line 29: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117831/slurm_script: line 39: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117832/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117832/slurm_script: line 19: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117832/slurm_script: line 29: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117832/slurm_script: line 39: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117838/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117838/slurm_script: line 19: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117838/slurm_script: line 29: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117838/slurm_script: line 39: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117838/slurm_script: line 48: ./Galacticus.exe: No such file or directory
+/var/spool/slurmd/job117848/slurm_script: line 9: ./Galacticus.exe: No such file or directory
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+M: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+--2026-06-25 14:09:17--  https://github.com/cmbant/CAMB/archive/refs/tags/1.6.6.tar.gz
+Resolving github.com (github.com)... 140.82.116.4
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/cmbant/CAMB/tar.gz/refs/tags/1.6.6 [following]
+--2026-06-25 14:09:17--  https://codeload.github.com/cmbant/CAMB/tar.gz/refs/tags/1.6.6
+Resolving codeload.github.com (codeload.github.com)... 140.82.116.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.116.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB_1.6.6.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  889K
+    50K .......... .......... .......... .......... .......... 1.62M
+   100K .......... .......... .......... .......... .......... 33.5M
+   150K .......... .......... .......... .......... .......... 1.80M
+   200K .......... .......... .......... .......... .......... 27.4M
+   250K .......... .......... .......... .......... .......... 34.1M
+   300K .......... .......... .......... .......... .......... 2.03M
+   350K .......... .......... .......... .......... .......... 23.9M
+   400K .......... .......... .......... .......... .......... 31.9M
+   450K .......... .......... .......... .......... .......... 35.1M
+   500K .......... .......... .......... .......... .......... 34.0M
+   550K .......... .......... .......... .......... .......... 35.0M
+   600K .......... .......... .......... .......... .......... 35.5M
+   650K .......... .......... .......... .......... .......... 2.53M
+   700K .......... .......... .......... .......... .......... 21.8M
+   750K .......... .......... .......... .......... .......... 22.9M
+   800K .......... .......... .......... .......... .......... 23.9M
+   850K .......... .......... .......... .......... .......... 25.3M
+   900K .......... .......... .......... .......... .......... 22.3M
+   950K .......... .......... .......... .......... .......... 33.3M
+  1000K .......... .......... .......... .......... .......... 34.7M
+  1050K .......... .......... .......... .......... .......... 35.1M
+  1100K .......... .......... .......... .......... .......... 34.7M
+  1150K .......... .......... .......... .......... .......... 35.2M
+  1200K .......... .......... .......... .......... .......... 34.5M
+  1250K .......... .......... .......... .......... .......... 35.1M
+  1300K .......... .......... .......... .......... .......... 34.2M
+  1350K .......... .......... .......... .......... .......... 7.36M
+  1400K .......... .......... .......... .......... .......... 28.9M
+  1450K .......... .......... .......... .......... .......... 28.6M
+  1500K .......... .......... .......... .......... .......... 29.4M
+  1550K .......... .......... .......... .......... .......... 27.3M
+  1600K .......... .......... .......... .......... .......... 23.9M
+  1650K .......... .......... .......... .......... .......... 26.4M
+  1700K .......... .......... .......... .......... .......... 25.2M
+  1750K .......... .......... .......... .......... .......... 25.9M
+  1800K .......... .......... .......... .......... .......... 23.4M
+  1850K .......... .......... .......... .......... .......... 24.3M
+  1900K .......... .......... .......... .......... .......... 24.9M
+  1950K .......... .......... .......... .......... .......... 27.9M
+  2000K .......... .......... .......... .......... .......... 33.6M
+  2050K .......... .......... .......... .......... .......... 34.9M
+  2100K .......... .......... .......... .......... .......... 34.9M
+  2150K .......... .......... .......... .......... .......... 27.0M
+  2200K .......... .......... .......... .......... .......... 26.1M
+  2250K .......... .......... .......... .......... .......... 26.7M
+  2300K .......... .......... .......... .......... .......... 26.7M
+  2350K .......... .......... .......... .......... .......... 26.7M
+  2400K .......... .......... .......... .......... .......... 26.6M
+  2450K .......... .......... .......... .......... .......... 26.6M
+  2500K .......... .......... .......... .......... .......... 34.0M
+  2550K .......... .......... .......... .......... .......... 5.56M
+  2600K .......... .......... .......... .......... .......... 31.0M
+  2650K .......... .......... .......... .......... .......... 34.5M
+  2700K .......... .......... .......... .......... .......... 34.2M
+  2750K .......... .......... .......... .......... .......... 35.3M
+  2800K .......... .......... .......... .......... .......... 26.5M
+  2850K .......... .......... .......... .......... .......... 33.4M
+  2900K .......... .......... .......... .......... .......... 27.2M
+  2950K .......... .......... .......... .......... .......... 35.8M
+  3000K .......... .......... .......... .......... .......... 34.0M
+  3050K .......... .......... .......... .......... .......... 35.5M
+  3100K .......... .......... .......... .......... .......... 34.3M
+  3150K .......... .......... .......... .......... .......... 33.8M
+  3200K .......... .......... .......... .......... .......... 24.3M
+  3250K .......... .......... .......... .......... .......... 35.4M
+  3300K .......... .......... .......... .......... .......... 34.2M
+  3350K .......... .......... .......... .......... .......... 35.8M
+  3400K .......... .......... .......... .......... .......... 33.8M
+  3450K .......... .......... .......... .......... .......... 33.2M
+  3500K .......... .......... .......... .......... .......... 29.3M
+  3550K .......... .......... .......... .......... .......... 34.3M
+  3600K .......... .......... .......... .......... .......... 35.2M
+  3650K .......... .......... .......... .......... .......... 34.9M
+  3700K .......... .......... .......... .......... .......... 33.3M
+  3750K .......... .......... .......... .......... .......... 24.7M
+  3800K .......... .......... .......... .......... .......... 29.6M
+  3850K .......... .......... .......... .......... .......... 34.7M
+  3900K .......... .......... .......... .......... .......... 34.2M
+  3950K .......... .......... .......... .......... .......... 35.5M
+  4000K .......... .......... .......... .......... .......... 33.7M
+  4050K .......... .......... .......... .......... .......... 35.5M
+  4100K .......... .......... .......... .......... .......... 34.7M
+  4150K .......... .......... .......... .......... .......... 34.9M
+  4200K .......... .......... .......... .......... .......... 33.9M
+  4250K .......... .......... .......... .......... .......... 27.4M
+  4300K .......... .......... .......... .......... .......... 25.6M
+  4350K .......... .......... .......... .......... .......... 29.1M
+  4400K .......... .......... .......... .......... .......... 34.1M
+  4450K .......... .......... .......... .......... .......... 35.9M
+  4500K .......... .......... .......... .......... .......... 33.8M
+  4550K .......... .......... .......... .......... .......... 35.2M
+  4600K .......... .......... .......... .......... .......... 33.2M
+  4650K .......... .......... .......... .......... .......... 34.9M
+  4700K .......... .......... .......... .......... .......... 33.8M
+  4750K .......... .......... .......... .......... .......... 35.9M
+  4800K .......... .......... .......... .......... .......... 34.3M
+  4850K .......... .......... .......... .......... .......... 34.4M
+  4900K .......... .......... .......... .......... .......... 22.1M
+  4950K .......... .......... .......... .......... .......... 22.7M
+  5000K .......... .......... .......... .......... .......... 34.1M
+  5050K .......... .......... .......... .......... .......... 35.0M
+  5100K .......... .......... .......... .......... .......... 34.7M
+  5150K .......... .......... .......... .......... .......... 34.5M
+  5200K .......... .......... .......... .......... .......... 34.9M
+  5250K .......... .......... .......... .......... .......... 31.9M
+  5300K .......... .......... .......... .......... .......... 23.1M
+  5350K .......... .......... .......... .......... .......... 35.6M
+  5400K .......... .......... .......... .......... .......... 34.0M
+  5450K .......... .......... .......... .......... .......... 35.3M
+  5500K .......... .......... .......... .......... .......... 34.8M
+  5550K .......... .......... .......... .......... .......... 35.3M
+  5600K .......... .......... .......... .......... .......... 1.06M
+  5650K .......... .......... .......... .......... .......... 24.6M
+  5700K .......... .......... .......... .......... .......... 31.1M
+  5750K .......... .......... .......... .......... .......... 34.7M
+  5800K .......... .......... .......... .......... .......... 34.2M
+  5850K .......... .......... .......... .......... .......... 5.49M
+  5900K .......... .......... .......... .......... .......... 23.5M
+  5950K .......... .......... .......... .......... .......... 27.6M
+  6000K .......... .......... .......... .......... .......... 34.3M
+  6050K .......... .......... .......... .......... .......... 35.6M
+  6100K .......... .......... .......... .......... .......... 6.69M
+  6150K .......... .......... .......... .......... .......... 22.9M
+  6200K .......... .......... .......... .......... .......... 33.8M
+  6250K .......... .......... .......... .......... .......... 35.6M
+  6300K .......... .......... .......... .......... .......... 34.3M
+  6350K .......... .......... .......... .......... .......... 35.6M
+  6400K .......... .......... .......... .......... .......... 4.23M
+  6450K .......... .......... .......... .......... .......... 31.7M
+  6500K .......... .......... .......... .......... .......... 33.6M
+  6550K .......... .......... .......... .......... .......... 35.6M
+  6600K .......... .......... .......... .......... .......... 34.2M
+  6650K .......... .......... .......... .......... .......... 4.03M
+  6700K .......... .......... .......... .......... .......... 26.6M
+  6750K .......... .......... .......... .......... .......... 34.4M
+  6800K .......... .......... .......... .......... .......... 34.1M
+  6850K .......... .......... .......... .......... .......... 35.1M
+  6900K .......... .......... .......... .......... .......... 3.98M
+  6950K .......... .......... .......... .......... .......... 28.3M
+  7000K .......... .......... .......... .......... .......... 34.4M
+  7050K .......... .......... .......... .......... .......... 35.3M
+  7100K .......... .......... .......... .......... .......... 34.7M
+  7150K .......... .......... .......... .......... .......... 6.80M
+  7200K .......... .......... .......... .......... .......... 23.8M
+  7250K .......... .......... .......... .......... .......... 32.7M
+  7300K .......... .......... .......... .......... .......... 33.3M
+  7350K .......... .......... .......... .......... .......... 34.8M
+  7400K .......... .......... .......... .......... .......... 5.06M
+  7450K .......... .......... .......... .......... .......... 22.2M
+  7500K .......... .......... .......... .......... .......... 29.3M
+  7550K .......... .......... .......... .......... .......... 35.3M
+  7600K .......... .......... .......... .......... .......... 34.4M
+  7650K .......... .......... .......... .......... .......... 4.42M
+  7700K .......... .......... .......... .......... .......... 14.7M
+  7750K .......... .......... .......... .......... .......... 24.9M
+  7800K .......... .......... .......... .......... .......... 33.2M
+  7850K .......... .......... .......... .......... .......... 33.5M
+  7900K .......... .......... .......... .......... .......... 5.97M
+  7950K .......... .......... .......... .......... .......... 23.0M
+  8000K .......... .......... .......... .......... .......... 23.7M
+  8050K .......... .......... .......... .......... .......... 35.8M
+  8100K .......... .......... .......... .......... .......... 34.2M
+  8150K .......... .......... .......... .......... .......... 5.71M
+  8200K .......... .......... .......... .......... .......... 22.6M
+  8250K .......... .......... .......... .......... .......... 35.5M
+  8300K .......... .......... .......... .......... .......... 34.7M
+  8350K .......... .......... .......... .......... .......... 35.6M
+  8400K .......... .......... .......... .......... .......... 4.04M
+  8450K .......... .......... .......... .......... .......... 23.6M
+  8500K .......... .......... .......... .......... .......... 23.4M
+  8550K .......... .......... .......... .......... .......... 35.7M
+  8600K .......... .......... .......... .......... .......... 33.7M
+  8650K .......... .......... .......... .......... .......... 35.7M
+  8700K .......... .......... .......... .......... .......... 4.49M
+  8750K .......... .......... .......... .......... .......... 23.9M
+  8800K .......... .......... .......... .......... .......... 33.5M
+  8850K .......... .......... .......... .......... .......... 35.4M
+  8900K .......... .......... .......... .......... .......... 34.8M
+  8950K .......... .......... .......... .......... .......... 7.06M
+  9000K .......... .......... .......... .......... .......... 24.3M
+  9050K .......... .......... .......... .......... .......... 35.4M
+  9100K .......... .......... .......... .......... .......... 34.4M
+  9150K .......... .......... .......... .......... .......... 36.0M
+  9200K .......... .......... .......... .......... .......... 3.84M
+  9250K .......... .......... .......... .......... .......... 29.9M
+  9300K .......... .......... .......... .......... .......... 34.4M
+  9350K .......... .......... .......... .......... .......... 35.3M
+  9400K .......... .......... .......... .......... .......... 34.9M
+  9450K .......... .......... .......... .......... .......... 4.61M
+  9500K .......... .......... .......... .......... .......... 25.9M
+  9550K .......... .......... .......... .......... .......... 35.4M
+  9600K .......... .......... .......... .......... .......... 34.3M
+  9650K .......... .......... .......... .......... .......... 35.7M
+  9700K .......... .......... .......... .......... .......... 4.52M
+  9750K .......... .......... .......... .......... .......... 27.8M
+  9800K .......... .......... .......... .......... .......... 34.4M
+  9850K .......... .......... .......... .......... .......... 33.7M
+  9900K .......... .......... .......... .......... .......... 35.0M
+  9950K .......... .......... .......... .......... .......... 5.87M
+ 10000K .......... .......... .......... .......... .......... 23.4M
+ 10050K .......... .......... .......... .......... .......... 34.6M
+ 10100K .......... .......... .......... .......... .......... 34.0M
+ 10150K .......... .......... .......... .......... .......... 35.5M
+ 10200K .......... .......... .......... .......... .......... 3.77M
+ 10250K .......... .......... .......... .......... .......... 22.5M
+ 10300K .......... .......... .......... .......... .......... 31.8M
+ 10350K .......... .......... .......... .......... .......... 35.0M
+ 10400K .......... .......... .......... .......... .......... 34.3M
+ 10450K .......... .......... .......... .......... .......... 5.46M
+ 10500K .......... .......... .......... .......... .......... 24.7M
+ 10550K .......... .......... .......... .......... .......... 26.3M
+ 10600K .......... .......... .......... .......... .......... 33.9M
+ 10650K .......... .......... .......... .......... .......... 35.5M
+ 10700K .......... .......... .......... .......... .......... 8.98M
+ 10750K .......... .......... .......... .......... .......... 11.6M
+ 10800K .......... .......... .......... .......... .......... 24.0M
+ 10850K .......... .......... .......... .......... .......... 35.0M
+ 10900K .......... .......... .......... .......... .......... 34.7M
+ 10950K .......... .......... .......... .......... .......... 35.1M
+ 11000K .......... .......... .......... .......... .......... 2.37M
+ 11050K .......... .......... .......... .......... .......... 28.4M
+ 11100K .......... .......... .......... .......... .......... 33.7M
+ 11150K .......... .......... .......... .......... .......... 35.4M
+ 11200K .......... .......... .......... .......... .......... 33.6M
+ 11250K .......... .......... .......... .......... .......... 6.66M
+ 11300K .......... .......... .......... .......... .......... 24.9M
+ 11350K .......... .......... .......... .......... .......... 35.1M
+ 11400K .......... .......... .......... .......... .......... 34.4M
+ 11450K .......... .......... .......... .......... .......... 35.0M
+ 11500K .......... .......... .......... .......... .......... 5.85M
+ 11550K .......... .......... .......... .......... .......... 21.1M
+ 11600K .......... .......... .......... .......... .......... 34.2M
+ 11650K .......... .......... .......... .......... .......... 35.5M
+ 11700K .......... .......... .......... .......... .......... 34.6M
+ 11750K .......... .......... .......... .......... .......... 3.54M
+ 11800K .......... .......... .......... .......... .......... 23.3M
+ 11850K .......... .......... .......... .......... .......... 34.6M
+ 11900K .......... .......... .......... .......... .......... 34.0M
+ 11950K .......... .......... .......... .......... .......... 35.4M
+ 12000K .......... .......... .......... .......... .......... 5.01M
+ 12050K .......... .......... .......... .......... .......... 25.9M
+ 12100K .......... .......... .......... .......... .......... 34.0M
+ 12150K .......... .......... .......... .......... .......... 35.5M
+ 12200K .......... .......... .......... .......... .......... 32.5M
+ 12250K .......... .......... .......... .......... .......... 5.60M
+ 12300K .......... .......... .......... .......... .......... 23.5M
+ 12350K .......... .......... .......... .......... .......... 34.7M
+ 12400K .......... .......... .......... .......... .......... 34.4M
+ 12450K .......... .......... .......... .......... .......... 35.1M
+ 12500K .......... .......... .......... .......... .......... 2.36M
+ 12550K .......... .......... .......... .......... .......... 28.2M
+ 12600K .......... .......... .......... .......... .......... 27.1M
+ 12650K .......... .......... .......... .......... .......... 30.1M
+ 12700K .......... .......... .......... .......... .......... 31.7M
+ 12750K .......... .......... .......... .......... .......... 23.3M
+ 12800K .......... .......... .......... .......... .......... 32.0M
+ 12850K .......... .......... .......... .......... .......... 35.9M
+ 12900K .......... .......... .......... .......... .......... 33.6M
+ 12950K .......... .......... .......... .......... .......... 35.2M
+ 13000K .......... .......... .......... .......... .......... 34.8M
+ 13050K .......... .......... .......... .......... .......... 1.87M
+ 13100K .......... .......... .......... .......... .......... 31.1M
+ 13150K .......... .......... .......... .......... .......... 34.9M
+ 13200K .......... .......... .......... .......... .......... 34.7M
+ 13250K .......... .......... .......... .......... .......... 35.6M
+ 13300K .......... .......... .......... .......... .......... 1.60M
+ 13350K .......... .......... .......... .......... .......... 28.6M
+ 13400K .......... .......... .......... .......... .......... 34.5M
+ 13450K .......... .......... .......... .......... .......... 36.0M
+ 13500K .......... .......... .......... .......... .......... 34.6M
+ 13550K .......... .......... .......... .......... .......... 28.0M
+ 13600K .......... .......... .......... .......... .......... 32.8M
+ 13650K .......... .......... ..........                       1.33M=1.0s
+
+2026-06-25 14:09:19 (13.9 MB/s) - ‘/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB_1.6.6.tar.gz’ saved [14009198]
+
+CAMB-1.6.6/
+CAMB-1.6.6/.binder/
+CAMB-1.6.6/.binder/apt.txt
+CAMB-1.6.6/.binder/requirements.txt
+CAMB-1.6.6/.fortls
+CAMB-1.6.6/.gitattributes
+CAMB-1.6.6/.github/
+CAMB-1.6.6/.github/ISSUE_TEMPLATE/
+CAMB-1.6.6/.github/ISSUE_TEMPLATE/bug_report.md
+CAMB-1.6.6/.github/ISSUE_TEMPLATE/feature_request.md
+CAMB-1.6.6/.github/workflows/
+CAMB-1.6.6/.github/workflows/build_wheels.yml
+CAMB-1.6.6/.github/workflows/test_fortran.yml
+CAMB-1.6.6/.github/workflows/tests.yml
+CAMB-1.6.6/.gitignore
+CAMB-1.6.6/.gitmodules
+CAMB-1.6.6/.pre-commit-config.yaml
+CAMB-1.6.6/.readthedocs.yml
+CAMB-1.6.6/.vscode/
+CAMB-1.6.6/.vscode/extensions.json
+CAMB-1.6.6/.vscode/launch.json
+CAMB-1.6.6/.vscode/settings.json
+CAMB-1.6.6/CONTRIBUTING.md
+CAMB-1.6.6/LICENCE.txt
+CAMB-1.6.6/MANIFEST.in
+CAMB-1.6.6/README.rst
+CAMB-1.6.6/camb/
+CAMB-1.6.6/camb/PArthENoPE_880.2_marcucci.dat
+CAMB-1.6.6/camb/PArthENoPE_880.2_standard.dat
+CAMB-1.6.6/camb/PRIMAT_Yp_DH_Error.dat
+CAMB-1.6.6/camb/PRIMAT_Yp_DH_ErrorMC_2021.dat
+CAMB-1.6.6/camb/PRIMAT_Yp_DH_ErrorMC_2024.dat
+CAMB-1.6.6/camb/__init__.py
+CAMB-1.6.6/camb/_command_line.py
+CAMB-1.6.6/camb/_compilers.py
+CAMB-1.6.6/camb/_config.py
+CAMB-1.6.6/camb/baseconfig.py
+CAMB-1.6.6/camb/bbn.py
+CAMB-1.6.6/camb/bispectrum.py
+CAMB-1.6.6/camb/camb.py
+CAMB-1.6.6/camb/constants.py
+CAMB-1.6.6/camb/correlations.py
+CAMB-1.6.6/camb/dark_energy.py
+CAMB-1.6.6/camb/emission_angle.py
+CAMB-1.6.6/camb/initialpower.py
+CAMB-1.6.6/camb/mathutils.py
+CAMB-1.6.6/camb/model.py
+CAMB-1.6.6/camb/nonlinear.py
+CAMB-1.6.6/camb/postborn.py
+CAMB-1.6.6/camb/recombination.py
+CAMB-1.6.6/camb/reionization.py
+CAMB-1.6.6/camb/results.py
+CAMB-1.6.6/camb/sources.py
+CAMB-1.6.6/camb/symbolic.py
+CAMB-1.6.6/camb/tests/
+CAMB-1.6.6/camb/tests/__init__.py
+CAMB-1.6.6/camb/tests/camb_test.py
+CAMB-1.6.6/camb/tests/hmcode_test.py
+CAMB-1.6.6/docs/
+CAMB-1.6.6/docs/CAMBdemo.html
+CAMB-1.6.6/docs/CAMBdemo.ipynb
+CAMB-1.6.6/docs/README_pypi.rst
+CAMB-1.6.6/docs/ScalEqs.html
+CAMB-1.6.6/docs/ScalEqs.ipynb
+CAMB-1.6.6/docs/index.html
+CAMB-1.6.6/docs/markdown_builder.py
+CAMB-1.6.6/docs/source/
+CAMB-1.6.6/docs/source/bbn.rst
+CAMB-1.6.6/docs/source/camb.rst
+CAMB-1.6.6/docs/source/conf.py
+CAMB-1.6.6/docs/source/correlations.rst
+CAMB-1.6.6/docs/source/dark_energy.rst
+CAMB-1.6.6/docs/source/emission_angle.rst
+CAMB-1.6.6/docs/source/fortran_compilers.rst
+CAMB-1.6.6/docs/source/index.rst
+CAMB-1.6.6/docs/source/initialpower.rst
+CAMB-1.6.6/docs/source/mathutils.rst
+CAMB-1.6.6/docs/source/model.rst
+CAMB-1.6.6/docs/source/modifying_code.rst
+CAMB-1.6.6/docs/source/nonlinear.rst
+CAMB-1.6.6/docs/source/postborn.rst
+CAMB-1.6.6/docs/source/recombination.rst
+CAMB-1.6.6/docs/source/reionization.rst
+CAMB-1.6.6/docs/source/results.rst
+CAMB-1.6.6/docs/source/sources.rst
+CAMB-1.6.6/docs/source/symbolic.rst
+CAMB-1.6.6/docs/source/transfer_variables.rst
+CAMB-1.6.6/docs/source/variables_guide.rst
+CAMB-1.6.6/fortran/
+CAMB-1.6.6/fortran/DarkAge21cm.f90
+CAMB-1.6.6/fortran/DarkEnergyFluid.f90
+CAMB-1.6.6/fortran/DarkEnergyInterface.f90
+CAMB-1.6.6/fortran/DarkEnergyPPF.f90
+CAMB-1.6.6/fortran/DarkEnergyQuintessence.f90
+CAMB-1.6.6/fortran/ExternalNonLinearRatio.f90
+CAMB-1.6.6/fortran/HighLExtrapTemplate_lenspotentialCls.dat
+CAMB-1.6.6/fortran/InitialPower.f90
+CAMB-1.6.6/fortran/Makefile
+CAMB-1.6.6/fortran/Makefile_main
+CAMB-1.6.6/fortran/MathUtils.f90
+CAMB-1.6.6/fortran/PowellMinimize.f90
+CAMB-1.6.6/fortran/SecondOrderPK.f90
+CAMB-1.6.6/fortran/SeparableBispectrum.f90
+CAMB-1.6.6/fortran/SourceWindows.f90
+CAMB-1.6.6/fortran/VisualStudio/
+CAMB-1.6.6/fortran/VisualStudio/CAMB.sln
+CAMB-1.6.6/fortran/VisualStudio/CAMB.vfproj
+CAMB-1.6.6/fortran/VisualStudio/CAMBLib.vfproj
+CAMB-1.6.6/fortran/VisualStudio/CAMBdll.vfproj
+CAMB-1.6.6/fortran/bessels.f90
+CAMB-1.6.6/fortran/camb.cbp
+CAMB-1.6.6/fortran/camb.f90
+CAMB-1.6.6/fortran/camb_python.f90
+CAMB-1.6.6/fortran/classes.f90
+CAMB-1.6.6/fortran/cmbmain.f90
+CAMB-1.6.6/fortran/config.f90
+CAMB-1.6.6/fortran/constants.f90
+CAMB-1.6.6/fortran/cosmorec.f90
+CAMB-1.6.6/fortran/equations.f90
+CAMB-1.6.6/fortran/halofit.f90
+CAMB-1.6.6/fortran/hyrec.f90
+CAMB-1.6.6/fortran/inidriver.f90
+CAMB-1.6.6/fortran/lensing.f90
+CAMB-1.6.6/fortran/massive_neutrinos.f90
+CAMB-1.6.6/fortran/model.f90
+CAMB-1.6.6/fortran/readme.html
+CAMB-1.6.6/fortran/recfast.f90
+CAMB-1.6.6/fortran/reionization.f90
+CAMB-1.6.6/fortran/results.f90
+CAMB-1.6.6/fortran/sigma8.f90
+CAMB-1.6.6/fortran/subroutines.f90
+CAMB-1.6.6/fortran/tester.f90
+CAMB-1.6.6/fortran/tests/
+CAMB-1.6.6/fortran/tests/CAMB_test_files.py
+CAMB-1.6.6/fortran/tests/inifile.py
+CAMB-1.6.6/fortran/tests/run_tests.sh
+CAMB-1.6.6/fortran/writefits.f90
+CAMB-1.6.6/forutils/
+CAMB-1.6.6/inifiles/
+CAMB-1.6.6/inifiles/params.ini
+CAMB-1.6.6/inifiles/params_21cm.ini
+CAMB-1.6.6/inifiles/params_counts.ini
+CAMB-1.6.6/inifiles/params_lensing.ini
+CAMB-1.6.6/inifiles/planck_2018.ini
+CAMB-1.6.6/inifiles/planck_2018_acc.ini
+CAMB-1.6.6/inifiles/sources_defaults.ini
+CAMB-1.6.6/pyproject.toml
+CAMB-1.6.6/requirements.txt
+CAMB-1.6.6/setup.py
+--2026-06-25 14:09:20--  https://github.com/cmbant/forutils/archive/refs/tags/1.0.tar.gz
+Resolving github.com (github.com)... 140.82.116.4
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/cmbant/forutils/tar.gz/refs/tags/1.0 [following]
+--2026-06-25 14:09:20--  https://codeload.github.com/cmbant/forutils/tar.gz/refs/tags/1.0
+Resolving codeload.github.com (codeload.github.com)... 140.82.116.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.116.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 64848 (63K) [application/x-gzip]
+Saving to: ‘/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils_1.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 78%  862K 0s
+    50K .......... ...                                        100% 31.3M=0.06s
+
+2026-06-25 14:09:21 (1.06 MB/s) - ‘/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils_1.0.tar.gz’ saved [64848/64848]
+
+forutils-1.0/.gitignore
+forutils-1.0/.travis.yml
+forutils-1.0/ArrayUtils.f90
+forutils-1.0/FileUtils.f90
+forutils-1.0/ForUtils.vfproj
+forutils-1.0/IniObjects.f90
+forutils-1.0/Interpolation.f90
+forutils-1.0/LICENSE
+forutils-1.0/Makefile
+forutils-1.0/Makefile_compiler
+forutils-1.0/MatrixUtils.f90
+forutils-1.0/MiscUtils.f90
+forutils-1.0/MpiUtils.f90
+forutils-1.0/ObjectLists.f90
+forutils-1.0/RandUtils.f90
+forutils-1.0/RangeUtils.f90
+forutils-1.0/Readme.rst
+forutils-1.0/StringUtils.f90
+forutils-1.0/tests/
+forutils-1.0/tests/ForUtils.sln
+forutils-1.0/tests/Makefile
+forutils-1.0/tests/ObjectLists_tests.f90
+forutils-1.0/tests/UnitTests.vfproj
+forutils-1.0/tests/array_tests.f90
+forutils-1.0/tests/file_tests.f90
+forutils-1.0/tests/inifile_tests.f90
+forutils-1.0/tests/interpolation_tests.f90
+forutils-1.0/tests/ranges_tests.f90
+forutils-1.0/tests/run_tests.f90
+forutils-1.0/tests/run_tests.sh
+forutils-1.0/tests/string_tests.f90
+make -C Release --no-print-directory -f../Makefile SRC_DIR=.. libforutils.a
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o MiscUtils.o -c ../MiscUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o MpiUtils.o -c ../MpiUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o StringUtils.o -c ../StringUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o ArrayUtils.o -c ../ArrayUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o FileUtils.o -c ../FileUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o IniObjects.o -c ../IniObjects.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o RandUtils.o -c ../RandUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o ObjectLists.o -c ../ObjectLists.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o MatrixUtils.o -c ../MatrixUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o RangeUtils.o -c ../RangeUtils.f90
+gfortran -cpp -ffree-line-length-none -fmax-errors=4 -MMD -fopenmp -fPIC -O3 -ffast-math -o Interpolation.o -c ../Interpolation.f90
+ar -r libforutils.a MiscUtils.o MpiUtils.o StringUtils.o ArrayUtils.o FileUtils.o IniObjects.o RandUtils.o ObjectLists.o MatrixUtils.o RangeUtils.o Interpolation.o
+ar: creating libforutils.a
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../constants.f90 -o constants.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../config.f90 -o config.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../classes.f90 -o classes.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../MathUtils.f90 -o MathUtils.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../subroutines.f90 -o subroutines.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../DarkAge21cm.f90 -o DarkAge21cm.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../DarkEnergyInterface.f90 -o DarkEnergyInterface.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../SourceWindows.f90 -o SourceWindows.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../massive_neutrinos.f90 -o massive_neutrinos.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../model.f90 -o model.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../results.f90 -o results.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../bessels.f90 -o bessels.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../recfast.f90 -o recfast.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../DarkEnergyFluid.f90 -o DarkEnergyFluid.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../DarkEnergyPPF.f90 -o DarkEnergyPPF.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../PowellMinimize.f90 -o PowellMinimize.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../DarkEnergyQuintessence.f90 -o DarkEnergyQuintessence.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../equations.f90 -o equations.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../reionization.f90 -o reionization.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../InitialPower.f90 -o InitialPower.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../halofit.f90 -o halofit.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../SecondOrderPK.f90 -o SecondOrderPK.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../ExternalNonLinearRatio.f90 -o ExternalNonLinearRatio.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../lensing.f90 -o lensing.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../SeparableBispectrum.f90 -o SeparableBispectrum.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../cmbmain.f90 -o cmbmain.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../camb.f90 -o camb.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../camb_python.f90 -o camb_python.o
+ar -r libcamb.a constants.o config.o classes.o MathUtils.o subroutines.o DarkAge21cm.o DarkEnergyInterface.o SourceWindows.o massive_neutrinos.o model.o results.o bessels.o recfast.o DarkEnergyFluid.o DarkEnergyPPF.o PowellMinimize.o DarkEnergyQuintessence.o equations.o reionization.o InitialPower.o halofit.o SecondOrderPK.o ExternalNonLinearRatio.o lensing.o SeparableBispectrum.o cmbmain.o camb.o camb_python.o
+ar: creating libcamb.a
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -c ../inidriver.f90 -o inidriver.o
+gfortran -cpp -Ofast -fopenmp -I/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/include -fintrinsic-modules-path /carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/finclude -L/carnegie/hpcdata/software/rhel9/hdf5/1.14.5-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/fox/4.1.3-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/libmatheval/1.1.12/lib -L/carnegie/hpcdata/software/rhel9/fftw/3.3.4-gcc16.0.1/lib -L/carnegie/hpcdata/software/rhel9/blas/3.12.0/lib -JRelease -IRelease/ -I"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" \
+	Release/inidriver.o Release/libcamb.a  -L"/carnegie/nobackup/users/sackah/Galacticus/datasets/dynamic/CAMB-1.6.6/fortran/../forutils/Release/" -lforutils -o camb
+Om_b h^2             =  0.022369
+Om_c h^2             =  0.120694
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.684608
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.315300
+100 theta (CosmoMC)  =  1.040138
+Age of universe/GYr  =  13.795
+zstar                =  1090.11
+r_s(zstar)/Mpc       =  144.25
+100*theta            =  1.040221
+DA(zstar)/Gpc        =  13.86721
+zdrag                =  1060.09
+r_s(zdrag)/Mpc       =  146.91
+k_D(zstar) Mpc       =  0.1409
+100*theta_D          =  0.160760
+z_EQ (if v_nu=1)     =  3418.64
+k_EQ Mpc (if v_nu=1) =  0.010434
+100*theta_EQ         =  0.809715
+100*theta_rs_EQ      =  0.447509
+tau_recomb/Mpc       =  280.35  tau_now/Mpc =  14147.3
+at z =100.000 sigma8 (all matter) =  0.0105
+at z =100.000 sigma8^2_vd/sigma8  =  0.0104
+Om_b h^2             =  0.022369
+Om_c h^2             =  0.120694
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.684608
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.315300
+100 theta (CosmoMC)  =  1.040138
+Age of universe/GYr  =  13.795
+zstar                =  1090.11
+r_s(zstar)/Mpc       =  144.25
+100*theta            =  1.040221
+DA(zstar)/Gpc        =  13.86721
+zdrag                =  1060.09
+r_s(zdrag)/Mpc       =  146.91
+k_D(zstar) Mpc       =  0.1409
+100*theta_D          =  0.160760
+z_EQ (if v_nu=1)     =  3418.64
+k_EQ Mpc (if v_nu=1) =  0.010434
+100*theta_EQ         =  0.809715
+100*theta_rs_EQ      =  0.447509
+tau_recomb/Mpc       =  280.29  tau_now/Mpc =  14147.3
+at z =100.000 sigma8 (all matter) =  0.0105
+at z =100.000 sigma8^2_vd/sigma8  =  0.0104
+Om_b h^2             =  0.022369
+Om_c h^2             =  0.120694
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.684608
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.315300
+100 theta (CosmoMC)  =  1.040138
+Age of universe/GYr  =  13.795
+zstar                =  1090.11
+r_s(zstar)/Mpc       =  144.25
+100*theta            =  1.040221
+DA(zstar)/Gpc        =  13.86721
+zdrag                =  1060.09
+r_s(zdrag)/Mpc       =  146.91
+k_D(zstar) Mpc       =  0.1409
+100*theta_D          =  0.160761
+z_EQ (if v_nu=1)     =  3418.64
+k_EQ Mpc (if v_nu=1) =  0.010434
+100*theta_EQ         =  0.809715
+100*theta_rs_EQ      =  0.447509
+tau_recomb/Mpc       =  280.23  tau_now/Mpc =  14147.3
+at z =100.000 sigma8 (all matter) =  0.0105
+at z =100.000 sigma8^2_vd/sigma8  =  0.0104
+M: -> Begin task: merger tree evolution
+1:     NOTE: memory available (16.000 GB) determined from SLURM
+1:     Memory usage: 66.653 MB / 16.000 GB
+Om_b h^2             =  0.022369
+Om_c h^2             =  0.120694
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.684608
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.315300
+100 theta (CosmoMC)  =  1.040138
+Age of universe/GYr  =  13.795
+zstar                =  1090.11
+r_s(zstar)/Mpc       =  144.25
+100*theta            =  1.040221
+DA(zstar)/Gpc        =  13.86721
+zdrag                =  1060.09
+r_s(zdrag)/Mpc       =  146.91
+k_D(zstar) Mpc       =  0.1409
+100*theta_D          =  0.160760
+z_EQ (if v_nu=1)     =  3418.64
+k_EQ Mpc (if v_nu=1) =  0.010434
+100*theta_EQ         =  0.809715
+100*theta_rs_EQ      =  0.447509
+tau_recomb/Mpc       =  280.38  tau_now/Mpc =  14147.3
+at z =100.000 sigma8 (all matter) =  0.0105
+at z =100.000 sigma8^2_vd/sigma8  =  0.0104
+Om_b h^2             =  0.022369
+Om_c h^2             =  0.120694
+Om_nu h^2            =  0.000000
+Om_darkenergy        =  0.684608
+Om_K                 =  0.000000
+Om_m (inc Om_u)      =  0.315300
+100 theta (CosmoMC)  =  1.040138
+Age of universe/GYr  =  13.795
+zstar                =  1090.11
+r_s(zstar)/Mpc       =  144.25
+100*theta            =  1.040221
+DA(zstar)/Gpc        =  13.86721
+zdrag                =  1060.09
+r_s(zdrag)/Mpc       =  146.91
+k_D(zstar) Mpc       =  0.1409
+100*theta_D          =  0.160760
+z_EQ (if v_nu=1)     =  3418.64
+k_EQ Mpc (if v_nu=1) =  0.010434
+100*theta_EQ         =  0.809715
+100*theta_rs_EQ      =  0.447509
+tau_recomb/Mpc       =  280.20  tau_now/Mpc =  14147.3
+at z =100.000 sigma8 (all matter) =  0.0105
+at z =100.000 sigma8^2_vd/sigma8  =  0.0104
+0:     Memory usage: 112.414 MB / 16.000 GB
+0:     -> Evolving tree number 1 {1}
+0:         Output tree data at t=13.80 Gyr
+0:     <- Finished tree
+0:     Memory usage: 73.928 MB / 16.000 GB
+M: <- Done task: merger tree evolution
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+MM: -> Begin task: merger tree evolution
+08:     NOTE: memory available (32.000 GB) determined from SLURM
+08:     Memory usage: 74.088 MB / 32.000 GB
+00:     Memory usage: 119.932 MB / 32.000 GB
+00:     -> Evolving tree number 1 {1}
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+00:     Memory usage: 81.132 MB / 32.000 GB
+MM: <- Done task: merger tree evolution
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+MM: -> Begin task: merger tree evolution
+03:     NOTE: memory available (24.000 GB) determined from SLURM
+03:     Memory usage: 870.763 MB / 24.000 GB
+03:     -> Evolving tree number 97 {1}
+02:     -> Evolving tree number 98 {1}
+22:     -> Evolving tree number 78 {1}
+00:     -> Evolving tree number 100 {1}
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+09:     -> Evolving tree number 91 {1}
+15:     -> Evolving tree number 85 {1}
+08:     -> Evolving tree number 92 {1}
+05:     Memory usage: 1.024 GB / 24.000 GB
+05:     -> Evolving tree number 95 {1}
+06:     -> Evolving tree number 94 {1}
+23:     -> Evolving tree number 77 {1}
+03:     -> Evolving tree number 73 {1}
+19:     -> Evolving tree number 81 {1}
+14:     -> Evolving tree number 86 {1}
+07:     -> Evolving tree number 93 {1}
+10:     -> Evolving tree number 90 {1}
+02:     -> Evolving tree number 74 {1}
+17:     -> Evolving tree number 83 {1}
+13:     -> Evolving tree number 87 {1}
+12:     -> Evolving tree number 88 {1}
+01:     -> Evolving tree number 99 {1}
+20:     -> Evolving tree number 80 {1}
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+21:     -> Evolving tree number 79 {1}
+16:     -> Evolving tree number 84 {1}
+11:     -> Evolving tree number 89 {1}
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+18:     -> Evolving tree number 82 {1}
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+04:     -> Evolving tree number 96 {1}
+03:     -> Evolving tree number 49 {1}
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+02:     -> Evolving tree number 50 {1}
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+05:         Memory usage: 837.163 MB / 24.000 GB
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+06:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+06:     <- Finished tree
+03:     -> Evolving tree number 25 {1}
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+02:     -> Evolving tree number 26 {1}
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+22:     -> Evolving tree number 54 {1}
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+23:     -> Evolving tree number 53 {1}
+03:     -> Evolving tree number 1 {1}
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+06:     -> Evolving tree number 70 {1}
+09:     -> Evolving tree number 67 {1}
+00:     -> Evolving tree number 76 {1}
+02:     -> Evolving tree number 2 {1}
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+08:     -> Evolving tree number 68 {1}
+15:     -> Evolving tree number 61 {1}
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+19:     -> Evolving tree number 57 {1}
+05:     -> Evolving tree number 71 {1}
+16:         Output tree data at t=13.80 Gyr
+16:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+13:     -> Evolving tree number 63 {1}
+01:     -> Evolving tree number 75 {1}
+12:     -> Evolving tree number 64 {1}
+07:     -> Evolving tree number 69 {1}
+14:     -> Evolving tree number 62 {1}
+17:     -> Evolving tree number 59 {1}
+20:     -> Evolving tree number 56 {1}
+10:     -> Evolving tree number 66 {1}
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+16:     -> Evolving tree number 60 {1}
+11:     -> Evolving tree number 65 {1}
+08:     -> Evolving tree number 44 {1}
+18:     -> Evolving tree number 58 {1}
+21:     -> Evolving tree number 55 {1}
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+04:     -> Evolving tree number 72 {1}
+06:     -> Evolving tree number 46 {1}
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+23:     -> Evolving tree number 29 {1}
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+15:     -> Evolving tree number 37 {1}
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+19:     -> Evolving tree number 33 {1}
+01:     -> Evolving tree number 51 {1}
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+14:     -> Evolving tree number 38 {1}
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+08:     -> Evolving tree number 20 {1}
+05:     -> Evolving tree number 47 {1}
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr
+16:     <- Finished tree
+09:     -> Evolving tree number 43 {1}
+20:     -> Evolving tree number 32 {1}
+22:     -> Evolving tree number 30 {1}
+00:     -> Evolving tree number 52 {1}
+21:     -> Evolving tree number 31 {1}
+17:     -> Evolving tree number 35 {1}
+12:     -> Evolving tree number 40 {1}
+23:     -> Evolving tree number 5 {1}
+13:     -> Evolving tree number 39 {1}
+01:         Output tree data at t=13.80 Gyr
+04:     -> Evolving tree number 48 {1}
+01:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+11:     -> Evolving tree number 41 {1}
+07:     -> Evolving tree number 45 {1}
+10:     -> Evolving tree number 42 {1}
+18:     -> Evolving tree number 34 {1}
+06:     -> Evolving tree number 22 {1}
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+16:     -> Evolving tree number 36 {1}
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+21:     -> Evolving tree number 7 {1}
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+01:     -> Evolving tree number 27 {1}
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+14:     -> Evolving tree number 14 {1}
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+19:     -> Evolving tree number 9 {1}
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+04:     -> Evolving tree number 24 {1}
+05:     -> Evolving tree number 23 {1}
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+20:     -> Evolving tree number 8 {1}
+15:     -> Evolving tree number 13 {1}
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+21:         Memory usage: 682.690 MB / 24.000 GB
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+09:     -> Evolving tree number 19 {1}
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+13:     -> Evolving tree number 15 {1}
+00:     -> Evolving tree number 28 {1}
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+17:     -> Evolving tree number 11 {1}
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr
+16:     <- Finished tree
+18:     -> Evolving tree number 10 {1}
+22:     -> Evolving tree number 6 {1}
+11:     -> Evolving tree number 17 {1}
+12:     -> Evolving tree number 16 {1}
+07:     -> Evolving tree number 21 {1}
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+01:     -> Evolving tree number 3 {1}
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+10:     -> Evolving tree number 18 {1}
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+20:     Memory usage: 560.639 MB / 24.000 GB
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+16:     -> Evolving tree number 12 {1}
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+22:     Memory usage: 441.026 MB / 24.000 GB
+00:         Output tree data at t=13.80 Gyr
+17:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+17:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+00:     -> Evolving tree number 4 {1}
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+10:     Memory usage: 366.852 MB / 24.000 GB
+16:         Output tree data at t=13.80 Gyr
+16:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+MM: <- Done task: merger tree evolution

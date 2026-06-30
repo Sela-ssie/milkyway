@@ -1,0 +1,501 @@
+#0  0x97b184 in __error_MOD_error_report_char
+	at ./work/build/error.p.F90:178
+#1  0x3dcae2a in __io_xml_MOD_xml_get_first_element_by_tag_name.constprop.0
+	at ./work/build/utility.IO.XML.p.F90:424
+#2  0x39af717 in __input_parameters_MOD_inputparametersconstructorfilechar
+	at ./work/build/utility.input_parameters.p.F90:744
+#3  0x39b5fe4 in __input_parameters_MOD_inputparametersconstructorvarstr.constprop.0
+	at ./work/build/utility.input_parameters.p.F90:636
+#4  0xab5107 in galacticus
+	at ./work/build/Galacticus.p.F90:127
+#5  0x412436 in main
+	at ./work/build/Galacticus.p.F90:28
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+Fatal error:
+no elements match tag name "changes"
+ Occurred at:
+     function:XML_Get_First_Element_By_Tag_Name
+       module:IO_XML
+         file:utility.IO.XML.F90   [line 419]
+  => Error occurred in master thread
+  => Command line was: /home/sackah/Galacticus/galacticus/Galacticus.exe /home/sackah/constrainedMilkyWay.xml /home/sackah/lmcConstraint.xml
+ => For help diagnosing this error, see the troubleshooting guide:
+      https://galacticus.readthedocs.io/en/latest/manuals/user-guide/troubleshooting/index.html
+ => If you believe this is a bug, please report it (include the message and backtrace above, plus your parameter file):
+      https://github.com/galacticusorg/galacticus/issues/new/choose
+ => Note: backtrace line numbers refer to the preprocessed sources under work/build/ (files ending in .p.F90).
+#0  0x97b184 in __error_MOD_error_report_char
+	at ./work/build/error.p.F90:178
+#1  0x97b30c in __error_MOD_error_report_varstr
+	at ./work/build/error.p.F90:142
+#2  0x39b3fc0 in __input_parameters_MOD_inputparametersconstructorfilechar
+	at ./work/build/utility.input_parameters.p.F90:731
+#3  0x39b5fe4 in __input_parameters_MOD_inputparametersconstructorvarstr.constprop.0
+	at ./work/build/utility.input_parameters.p.F90:636
+#4  0xab5107 in galacticus
+	at ./work/build/Galacticus.p.F90:127
+#5  0x412436 in main
+	at ./work/build/Galacticus.p.F90:28
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+Fatal error:
+Unable to parse parameter changes file: "/home/sackah/lmcConstraint.xml"
+HELP: check that the XML in this file is valid (e.g. `xmllint --noout /home/sackah/lmcConstraint.xml` will display any XML errors
+ Occurred at:
+     function:inputParametersConstructorFileChar
+       module:Input_Parameters
+         file:utility.input_parameters.F90   [line 570]
+  => Error occurred in master thread
+  => Command line was: /home/sackah/Galacticus/galacticus/Galacticus.exe /home/sackah/constrainedMilkyWay.xml /home/sackah/lmcConstraint.xml
+ => For help diagnosing this error, see the troubleshooting guide:
+      https://galacticus.readthedocs.io/en/latest/manuals/user-guide/troubleshooting/index.html
+ => If you believe this is a bug, please report it (include the message and backtrace above, plus your parameter file):
+      https://github.com/galacticusorg/galacticus/issues/new/choose
+ => Note: backtrace line numbers refer to the preprocessed sources under work/build/ (files ending in .p.F90).
+#0  0x97b184 in __error_MOD_error_report_char
+	at ./work/build/error.p.F90:178
+#1  0x97b30c in __error_MOD_error_report_varstr
+	at ./work/build/error.p.F90:142
+#2  0x39b3fc0 in __input_parameters_MOD_inputparametersconstructorfilechar
+	at ./work/build/utility.input_parameters.p.F90:731
+#3  0x39b5fe4 in __input_parameters_MOD_inputparametersconstructorvarstr.constprop.0
+	at ./work/build/utility.input_parameters.p.F90:636
+#4  0xab5107 in galacticus
+	at ./work/build/Galacticus.p.F90:127
+#5  0x412436 in main
+	at ./work/build/Galacticus.p.F90:28
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+Fatal error:
+Unable to parse parameter changes file: "/home/sackah/lmcConstraint.xml"
+HELP: check that the XML in this file is valid (e.g. `xmllint --noout /home/sackah/lmcConstraint.xml` will display any XML errors
+ Occurred at:
+     function:inputParametersConstructorFileChar
+       module:Input_Parameters
+         file:utility.input_parameters.F90   [line 570]
+  => Error occurred in master thread
+  => Command line was: /home/sackah/Galacticus/galacticus/Galacticus.exe /home/sackah/constrainedMilkyWay.xml /home/sackah/lmcConstraint.xml
+ => For help diagnosing this error, see the troubleshooting guide:
+      https://galacticus.readthedocs.io/en/latest/manuals/user-guide/troubleshooting/index.html
+ => If you believe this is a bug, please report it (include the message and backtrace above, plus your parameter file):
+      https://github.com/galacticusorg/galacticus/issues/new/choose
+ => Note: backtrace line numbers refer to the preprocessed sources under work/build/ (files ending in .p.F90).
+#0  0x97b184 in __error_MOD_error_report_char
+	at ./work/build/error.p.F90:178
+#1  0x97b30c in __error_MOD_error_report_varstr
+	at ./work/build/error.p.F90:142
+#2  0x39b3fc0 in __input_parameters_MOD_inputparametersconstructorfilechar
+	at ./work/build/utility.input_parameters.p.F90:731
+#3  0x39b5fe4 in __input_parameters_MOD_inputparametersconstructorvarstr.constprop.0
+	at ./work/build/utility.input_parameters.p.F90:636
+#4  0xab5107 in galacticus
+	at ./work/build/Galacticus.p.F90:127
+#5  0x412436 in main
+	at ./work/build/Galacticus.p.F90:28
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+Fatal error:
+Unable to parse parameter changes file: "/home/sackah/lmcConstraint.xml"
+HELP: check that the XML in this file is valid (e.g. `xmllint --noout /home/sackah/lmcConstraint.xml` will display any XML errors
+ Occurred at:
+     function:inputParametersConstructorFileChar
+       module:Input_Parameters
+         file:utility.input_parameters.F90   [line 570]
+  => Error occurred in master thread
+  => Command line was: /home/sackah/Galacticus/galacticus/Galacticus.exe /home/sackah/constrainedMilkyWay.xml /home/sackah/lmcConstraint.xml
+ => For help diagnosing this error, see the troubleshooting guide:
+      https://galacticus.readthedocs.io/en/latest/manuals/user-guide/troubleshooting/index.html
+ => If you believe this is a bug, please report it (include the message and backtrace above, plus your parameter file):
+      https://github.com/galacticusorg/galacticus/issues/new/choose
+ => Note: backtrace line numbers refer to the preprocessed sources under work/build/ (files ending in .p.F90).
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /carnegie/nobackup/users/sackah/Galacticus/datasets/static/
+MM: -> Begin task: merger tree evolution
+18:     NOTE: memory available (24.000 GB) determined from SLURM
+18:     Memory usage: 1.139 GB / 24.000 GB
+18:     -> Evolving tree number 82 {1}
+19:     -> Evolving tree number 81 {1}
+17:     -> Evolving tree number 83 {1}
+03:     -> Evolving tree number 97 {1}
+14:     -> Evolving tree number 86 {1}
+09:     -> Evolving tree number 91 {1}
+01:     -> Evolving tree number 99 {1}
+10:     -> Evolving tree number 90 {1}
+12:     -> Evolving tree number 88 {1}
+06:     -> Evolving tree number 94 {1}
+05:     -> Evolving tree number 95 {1}
+21:     -> Evolving tree number 79 {1}
+20:     -> Evolving tree number 80 {1}
+15:     -> Evolving tree number 85 {1}
+16:     -> Evolving tree number 84 {1}
+07:     -> Evolving tree number 93 {1}
+00:     -> Evolving tree number 100 {1}
+13:     -> Evolving tree number 87 {1}
+23:     -> Evolving tree number 77 {1}
+11:     -> Evolving tree number 89 {1}
+04:     -> Evolving tree number 96 {1}
+08:     -> Evolving tree number 92 {1}
+22:     -> Evolving tree number 78 {1}
+02:     -> Evolving tree number 98 {1}
+03:         Output tree data at t=13.80 Gyr
+19:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+19:     <- Finished tree
+14:         Memory usage: 337.873 MB / 24.000 GB
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+07:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+07:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+16:         Memory usage: 270.735 MB / 24.000 GB
+16:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+16:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+12:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+12:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr
+00:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+00:     <- Finished tree
+03:     Memory usage: 878.060 MB / 24.000 GB
+03:     -> Evolving tree number 73 {1}
+19:     -> Evolving tree number 57 {1}
+14:     -> Evolving tree number 62 {1}
+02:     -> Evolving tree number 74 {1}
+08:     -> Evolving tree number 68 {1}
+17:     Memory usage: 1.053 GB / 24.000 GB
+17:     -> Evolving tree number 59 {1}
+18:     -> Evolving tree number 58 {1}
+11:     -> Evolving tree number 65 {1}
+07:     -> Evolving tree number 69 {1}
+09:     -> Evolving tree number 67 {1}
+04:     -> Evolving tree number 72 {1}
+16:     -> Evolving tree number 60 {1}
+05:     -> Evolving tree number 71 {1}
+12:     -> Evolving tree number 64 {1}
+23:     -> Evolving tree number 53 {1}
+21:     -> Evolving tree number 55 {1}
+06:     -> Evolving tree number 70 {1}
+13:     -> Evolving tree number 63 {1}
+10:     -> Evolving tree number 66 {1}
+20:     -> Evolving tree number 56 {1}
+01:     -> Evolving tree number 75 {1}
+15:     -> Evolving tree number 61 {1}
+22:     -> Evolving tree number 54 {1}
+00:     -> Evolving tree number 76 {1}
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+19:         Memory usage: 386.902 MB / 24.000 GB
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+10:         Memory usage: 314.092 MB / 24.000 GB
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr
+18:         Output tree data at t=13.80 Gyr
+16:     <- Finished tree
+18:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+01:         Memory usage: 408.278 MB / 24.000 GB
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+03:     Memory usage: 665.825 MB / 24.000 GB
+03:     -> Evolving tree number 49 {1}
+19:     -> Evolving tree number 33 {1}
+02:     Memory usage: 800.298 MB / 24.000 GB
+02:     -> Evolving tree number 50 {1}
+14:     -> Evolving tree number 38 {1}
+17:     Memory usage: 0.960 GB / 24.000 GB
+17:     -> Evolving tree number 35 {1}
+07:     -> Evolving tree number 45 {1}
+10:     -> Evolving tree number 42 {1}
+08:     -> Evolving tree number 44 {1}
+04:     -> Evolving tree number 48 {1}
+11:     -> Evolving tree number 41 {1}
+16:     -> Evolving tree number 36 {1}
+18:     -> Evolving tree number 34 {1}
+05:     -> Evolving tree number 47 {1}
+12:     -> Evolving tree number 40 {1}
+20:     -> Evolving tree number 32 {1}
+09:     -> Evolving tree number 43 {1}
+00:     -> Evolving tree number 52 {1}
+21:     -> Evolving tree number 31 {1}
+15:     -> Evolving tree number 37 {1}
+22:     -> Evolving tree number 30 {1}
+06:     -> Evolving tree number 46 {1}
+23:     -> Evolving tree number 29 {1}
+13:     -> Evolving tree number 39 {1}
+01:     -> Evolving tree number 51 {1}
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+02:         Memory usage: 378.843 MB / 24.000 GB
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr
+16:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+16:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr
+17:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr
+18:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+18:     <- Finished tree
+12:         Memory usage: 311.838 MB / 24.000 GB
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+15:         Memory usage: 396.115 MB / 24.000 GB
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+19:     Memory usage: 532.327 MB / 24.000 GB
+19:     -> Evolving tree number 9 {1}
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+14:     Memory usage: 767.238 MB / 24.000 GB
+14:     -> Evolving tree number 14 {1}
+03:     -> Evolving tree number 25 {1}
+02:     -> Evolving tree number 26 {1}
+04:     -> Evolving tree number 24 {1}
+11:     Memory usage: 948.767 MB / 24.000 GB
+11:     -> Evolving tree number 17 {1}
+00:     -> Evolving tree number 28 {1}
+10:     -> Evolving tree number 18 {1}
+07:     -> Evolving tree number 21 {1}
+16:     -> Evolving tree number 12 {1}
+09:     -> Evolving tree number 19 {1}
+12:     -> Evolving tree number 16 {1}
+18:     -> Evolving tree number 10 {1}
+17:     -> Evolving tree number 11 {1}
+06:     -> Evolving tree number 22 {1}
+08:     -> Evolving tree number 20 {1}
+05:     -> Evolving tree number 23 {1}
+21:     -> Evolving tree number 7 {1}
+20:     -> Evolving tree number 8 {1}
+23:     -> Evolving tree number 5 {1}
+15:     -> Evolving tree number 13 {1}
+13:     -> Evolving tree number 15 {1}
+22:     -> Evolving tree number 6 {1}
+01:     -> Evolving tree number 27 {1}
+19:         Output tree data at t=13.80 Gyr
+19:     <- Finished tree
+19:     Memory usage: 490.596 MB / 24.000 GB
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr
+04:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr
+05:     <- Finished tree
+14:         Memory usage: 384.674 MB / 24.000 GB
+14:         Output tree data at t=13.80 Gyr
+14:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr
+11:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr
+08:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+16:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+16:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr
+09:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr
+18:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr
+07:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr
+21:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr
+17:         Output tree data at t=13.80 Gyr
+06:     <- Finished tree
+17:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr
+12:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr
+20:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr
+10:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr
+23:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr
+15:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr
+13:     <- Finished tree
+02:     -> Evolving tree number 2 {1}
+03:     -> Evolving tree number 1 {1}
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr
+22:     <- Finished tree
+00:     -> Evolving tree number 4 {1}
+01:     -> Evolving tree number 3 {1}
+02:         Output tree data at t=13.80 Gyr
+02:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr
+03:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr
+00:     <- Finished tree
+00:     Memory usage: 318.672 MB / 24.000 GB
+01:         Output tree data at t=13.80 Gyr
+01:     <- Finished tree
+MM: <- Done task: merger tree evolution
