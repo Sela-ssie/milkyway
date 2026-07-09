@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- Enforce an LMC constraint on the merger tree -->
+
+<changes>
+
+  <!-- Replace the usual tree builder with our constrained builder. -->
+  <change type="replace" path="mergerTreeBuilder">
+    <mergerTreeBuilder value="constrained">
+      <!-- A two stage build, which builds: 1) LMC; 2) everything else -->
+      
+      
+      
+      <!-- Stage 2: Finalize -->
+      <mergerTreeBuilder value="cole2000">
+	<accretionLimit   value="0.1"/>
+	<mergeProbability value="0.1"/>
+	<mergerTreeBuildController value="uncontrolled"/>
+      </mergerTreeBuilder>
+      <mergerTreeFilter value="always"/>
+      
+    </mergerTreeBuilder>
+  </change>
+  
+</changes>
+
