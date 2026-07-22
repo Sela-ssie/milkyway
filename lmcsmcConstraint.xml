@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- Enforce an LMC constraint on the merger tree -->
+
+<changes>
+
+  <!-- Replace the usual tree builder with our constrained builder. -->
+  <change type="replace" path="mergerTreeBuilder">
+    <mergerTreeBuilder value="constrained">
+      <!-- A two stage build, which builds: 1) LMC; 2) everything else -->
+      
+      <!-- Stage 1: LMC -->
+      <mergerTreeBuilder value="cole2000">
+	<accretionLimit   value="0.1"/>
+	<mergeProbability value="0.1"/>
+	<mergerTreeBuildController value="massTimeWindow">
+	  <massMinimum value="1.2e11"/>
+	  <timeMinimum value="11.6"  />
+	</mergerTreeBuildController>
+      </mergerTreeBuilder>
+      <mergerTreeFilter value="anyNode">
+	<!-- Label as LMC -->
+	<label            value="LMC"/>
+	<labelDescription value="Label indicating if this node is on the LMC branch."/>
+	<labelBranch      value="true"/>
+	<!-- Apply all LMC conditions -->
+	<galacticFilter value="all">
+          <!-- Consider halos not on the main branch. -->
+          <galacticFilter value="not">
+            <galacticFilter value="mainBranch"/>
+	  </galacticFilter>
+          <!-- Consider only halos in the LMC mass range. -->
+          <galacticFilter value="intervalPass">
+            <nodePropertyExtractor value="massBasic"/>
+            <thresholdLow  value="1.2e11"/>
+            <thresholdHigh value="1.4e11"/>
+          </galacticFilter>
+	  <!-- Restrict on parent halos. -->
+          <galacticFilter value="parentNode">
+	    <galacticFilter value="all">
+	      <!-- Parent halo must be on the main branch. -->
+              <galacticFilter value="mainBranch"/>
+              <!-- Consider only halos infalling at the right time. -->
+              <galacticFilter value="intervalPass">
+		<nodePropertyExtractor value="time"/>
+		<thresholdLow  value="11.6"/>
+		<thresholdHigh value="12.0"/>
+              </galacticFilter>
+            </galacticFilter>
+	  </galacticFilter>
+	</galacticFilter>
+      </mergerTreeFilter>
+      
+      <!-- Stage 2: Finalize -->
+      <mergerTreeBuilder value="cole2000">
+	<accretionLimit   value="0.1"/>
+	<mergeProbability value="0.1"/>
+	<mergerTreeBuildController value="uncontrolled"/>
+      </mergerTreeBuilder>
+      <mergerTreeFilter value="always"/>
+      
+    </mergerTreeBuilder>
+  </change>
+
+  <!-- Add nodeOperators to label LMC subhalos. -->
+  <change type="append" path="nodeOperator">
+    <!-- Label LMC subhalos -->
+    <nodeOperator value="label">
+      <!-- Apply a label "wasLMCSubhalo" to any node that was ever a subhalo of the LMC. -->
+      <label value="wasLMCSubhalo"/>
+      <onInitialize value="true"/>	<!-- Do this at tree initialization time where we can use the tree structure to determine this. -->
+      <onPostEvolution value="false"/>
+      <galacticFilter value="anyDescendantNode">
+	<!-- If any descendant of a node passes through a node labelled "LMC" then it will be an LMC subhalo at some time. -->
+	<allowSelf value="false"/>
+	<galacticFilter value="labelled">
+	  <label value="LMC"/>
+	</galacticFilter>
+      </galacticFilter>
+    </nodeOperator>
+    <nodeOperator value="label">
+      <!-- Apply a label "isLMCSubhalo" to any node that is a subhalo of the LMC at the present time. -->
+      <label value="isLMCSubhalo"/>
+      <onInitialize value="false"/>
+      <onPostEvolution value="true"/> <!-- Do this after each evolution step so it always reflects the current state. -->
+      <persistent value="false"/> <!-- Make the label non-persistent so it always reflects the current state. -->
+      <galacticFilter value="anyDescendantNode">
+	<!-- If any descendant (which includes hosts) of a node passes through a node labelled "LMC" then it is an LMC subhalo at this time. -->
+	<allowSelf value="false"/>
+	<galacticFilter value="labelled">
+	  <label value="LMC"/>
+	</galacticFilter>
+      </galacticFilter>
+    </nodeOperator>
+  </change>
+  
+</changes>
