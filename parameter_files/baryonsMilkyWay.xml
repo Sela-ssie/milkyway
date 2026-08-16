@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- Generate realizations of the Milky Way subhalo population -->
+
+<parameters>
+  <formatVersion>2</formatVersion>
+  <lastModified revision="23263e8c1dfc569099e2c1fbdedbc04ed6446e59" time="2026-05-18T15:53:57"/>
+
+  <verbosityLevel value="standard"/>
+
+  <!-- Include required parameters -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/darkMatterParticleCDM.xml"       xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/cosmology.xml"                   xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/powerSpectrum.xml"               xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/structureFormation.xml"          xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/darkMatterHalosProfile.xml"      xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/darkMatterHalosTidalHeating.xml" xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/darkMatterHalosStructure.xml"    xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/subhaloOrbits.xml"               xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/mergerTrees.xml"                 xpointer="xpointer(parameters/*)" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="/home/sackah/Galacticus/galacticus/parameters/reference/evolutionGalaxyFormation.xml"    xpointer="xpointer(parameters/*)" />
+
+  <!-- Random number generation -->
+  <randomNumberGenerator value="GSL">
+    <seed value="8122"/>
+  </randomNumberGenerator>
+
+  <!-- Task -->
+  <task                   value="evolveForests"/>
+  <evolveForestsWorkShare value="cyclic"       />
+
+  <!-- Merger tree building options --> 
+   <mergerTreeBuildMasses value="fixedMass">
+    <massTree  value="1.0e12"/>
+    <treeCount value="10000"/>
+  </mergerTreeBuildMasses>
+
+  <!-- Halo mass resolution -->
+  <mergerTreeMassResolution value="fixed">
+    <massResolution value="1.0e7"/>
+  </mergerTreeMassResolution>
+
+  <!-- Output options -->
+  <outputFileName value="scratch/sackah/constrainedBaryonicMilkyWay_10ktrees.hdf5"/>
+  <mergerTreeOutputter value="standard"/>
+  <outputTimes value="list">
+    <redshifts value="0.0"/>
+  </outputTimes>
+  <nodePropertyExtractor value="multi">
+    <nodePropertyExtractor value="nodeIndices"/>
+    <nodePropertyExtractor value="indicesTree"/>
+    <nodePropertyExtractor value="labels"     />
+    <nodePropertyExtractor value="virialProperties"/>
+  </nodePropertyExtractor>
+</parameters>

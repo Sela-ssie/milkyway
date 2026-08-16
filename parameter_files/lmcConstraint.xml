@@ -32,8 +32,8 @@
           <!-- Consider only halos in the LMC mass range. -->
           <galacticFilter value="intervalPass">
             <nodePropertyExtractor value="massBasic"/>
-            <thresholdLow  value="1.2e11"/>
-            <thresholdHigh value="1.4e11"/>
+            <thresholdLow  value="6e10"/>
+            <thresholdHigh value="2.5e11"/>
           </galacticFilter>
 	  <!-- Restrict on parent halos. -->
           <galacticFilter value="parentNode">
@@ -43,8 +43,8 @@
               <!-- Consider only halos infalling at the right time. -->
               <galacticFilter value="intervalPass">
 		<nodePropertyExtractor value="time"/>
-		<thresholdLow  value="11.6"/>
-		<thresholdHigh value="12.0"/>
+		<thresholdLow  value="12.2"/>
+		<thresholdHigh value="12.8"/>
               </galacticFilter>
             </galacticFilter>
 	  </galacticFilter>

@@ -50,5 +50,6 @@
     <nodePropertyExtractor value="nodeIndices"/>
     <nodePropertyExtractor value="indicesTree"/>
     <nodePropertyExtractor value="labels"     />
+    <nodePropertyExtractor value="virialProperties"/>
   </nodePropertyExtractor>
 </parameters>

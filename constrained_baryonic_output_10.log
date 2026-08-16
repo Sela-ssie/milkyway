@@ -1,0 +1,67 @@
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /home/sackah/Galacticus/datasets/static/
+MM: WARNING: parameter file may be missing important parameter updates - consider updating by running:
+
+              ./scripts/aux/parametersMigrate.py /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml newParameterFile.xml
+
+MM: -> Begin task: merger tree evolution
+32:     NOTE: memory available (128.000 GB) determined from SLURM
+32:     Memory usage: 404.034 MB / 128.000 GB
+07:     Memory usage: 2.986 GB / 128.000 GB
+07:     -> Evolving tree number 3 {1}
+09:     -> Evolving tree number 1 {1}
+01:     Memory usage: 4.278 GB / 128.000 GB
+01:     -> Evolving tree number 9 {1}
+04:     -> Evolving tree number 6 {1}
+05:     Memory usage: 5.484 GB / 128.000 GB
+05:     -> Evolving tree number 5 {1}
+02:     -> Evolving tree number 8 {1}
+00:     Memory usage: 6.729 GB / 128.000 GB
+00:     -> Evolving tree number 10 {1}
+08:     -> Evolving tree number 2 {1}
+03:     -> Evolving tree number 7 {1}
+06:     Memory usage: 10.291 GB / 128.000 GB
+06:     -> Evolving tree number 4 {1}
+09:         Memory usage: 12.684 GB / 128.000 GB
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     Progress: 1 trees processed; elapsed 6.0 m
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 2 trees processed; elapsed 8.5 m
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 4 trees processed; elapsed 10.0 m
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 6 trees processed; elapsed 11.3 m
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 8 trees processed; elapsed 12.9 m
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 10 trees processed; elapsed 16.4 m
+MM:     Run-time summary: 10 trees in 16.4 m wall time (1.83 h core-time); mean 11.0 m/tree, max 16.3 m/tree.
+MM: <- Done task: merger tree evolution
+MM: The Johnson et al. (2021) scale radius energy model failed (the total energy was positive, so the scale radius of the primary progenitor was used unchanged) for 0 of the 904430 nodes to which it was applied (0e-4). This rate depends on both mass resolution and power spectrum, so treat it as a systematic when calibrating this model.

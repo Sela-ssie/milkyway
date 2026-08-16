@@ -1,0 +1,1169 @@
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /home/sackah/Galacticus/datasets/static/
+MM: WARNING: parameter file may be missing important parameter updates - consider updating by running:
+
+              ./scripts/aux/parametersMigrate.py /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml newParameterFile.xml
+
+MM: -> Begin task: merger tree evolution
+00:     NOTE: memory available (128.000 GB) determined from SLURM
+00:     Memory usage: 9.695 GB / 128.000 GB
+00:     -> Evolving tree number 100 {1}
+23:     Memory usage: 13.556 GB / 128.000 GB
+23:     -> Evolving tree number 77 {1}
+13:     -> Evolving tree number 87 {1}
+15:     -> Evolving tree number 85 {1}
+43:     -> Evolving tree number 57 {1}
+44:     -> Evolving tree number 56 {1}
+02:     -> Evolving tree number 98 {1}
+34:     -> Evolving tree number 66 {1}
+19:     -> Evolving tree number 81 {1}
+01:     -> Evolving tree number 99 {1}
+28:     -> Evolving tree number 72 {1}
+30:     -> Evolving tree number 70 {1}
+25:     -> Evolving tree number 75 {1}
+46:     -> Evolving tree number 54 {1}
+32:     -> Evolving tree number 68 {1}
+24:     -> Evolving tree number 76 {1}
+16:     -> Evolving tree number 84 {1}
+42:     -> Evolving tree number 58 {1}
+08:     -> Evolving tree number 92 {1}
+37:     -> Evolving tree number 63 {1}
+22:     Memory usage: 17.021 GB / 128.000 GB
+22:     -> Evolving tree number 78 {1}
+10:     -> Evolving tree number 90 {1}
+06:     -> Evolving tree number 94 {1}
+11:     -> Evolving tree number 89 {1}
+12:     -> Evolving tree number 88 {1}
+39:     -> Evolving tree number 61 {1}
+31:     -> Evolving tree number 69 {1}
+26:     -> Evolving tree number 74 {1}
+36:     -> Evolving tree number 64 {1}
+47:     -> Evolving tree number 53 {1}
+45:     -> Evolving tree number 55 {1}
+14:     -> Evolving tree number 86 {1}
+18:     -> Evolving tree number 82 {1}
+04:     -> Evolving tree number 96 {1}
+03:     Memory usage: 20.530 GB / 128.000 GB
+03:     -> Evolving tree number 97 {1}
+09:     -> Evolving tree number 91 {1}
+41:     -> Evolving tree number 59 {1}
+40:     Memory usage: 25.195 GB / 128.000 GB
+40:     -> Evolving tree number 60 {1}
+05:     -> Evolving tree number 95 {1}
+21:     -> Evolving tree number 79 {1}
+20:     -> Evolving tree number 80 {1}
+33:     -> Evolving tree number 67 {1}
+27:     -> Evolving tree number 73 {1}
+29:     Memory usage: 30.429 GB / 128.000 GB
+29:     -> Evolving tree number 71 {1}
+35:     -> Evolving tree number 65 {1}
+17:     -> Evolving tree number 83 {1}
+38:     -> Evolving tree number 62 {1}
+07:     -> Evolving tree number 93 {1}
+16:         Memory usage: 60.252 GB / 128.000 GB
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 1 trees processed; elapsed 9.8 m
+16:     -> Evolving tree number 36 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 2 trees processed; elapsed 11.5 m
+22:     -> Evolving tree number 30 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 22 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 4 trees processed; elapsed 13.7 m
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+00:     -> Evolving tree number 52 {1}
+20:     -> Evolving tree number 32 {1}
+12:     -> Evolving tree number 40 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 18 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 26 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 9 trees processed; elapsed 14.9 m
+08:     -> Evolving tree number 44 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 9 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+04:     -> Evolving tree number 48 {1}
+19:     -> Evolving tree number 33 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 13 trees processed; elapsed 16.1 m
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+24:     -> Evolving tree number 28 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+33:     -> Evolving tree number 19 {1}
+36:     -> Evolving tree number 16 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 7 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 17 trees processed; elapsed 17.5 m
+32:     -> Evolving tree number 20 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+28:     -> Evolving tree number 24 {1}
+09:     -> Evolving tree number 43 {1}
+17:     -> Evolving tree number 35 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+21:     -> Evolving tree number 31 {1}
+06:     -> Evolving tree number 46 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 23 trees processed; elapsed 19.2 m
+40:     -> Evolving tree number 12 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+31:     -> Evolving tree number 21 {1}
+15:     -> Evolving tree number 37 {1}
+39:     -> Evolving tree number 13 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+07:     -> Evolving tree number 45 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+18:     -> Evolving tree number 34 {1}
+41:     -> Evolving tree number 11 {1}
+02:     -> Evolving tree number 50 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 31 trees processed; elapsed 20.8 m
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+35:     -> Evolving tree number 17 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+14:     -> Evolving tree number 38 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+37:     -> Evolving tree number 15 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+23:     -> Evolving tree number 29 {1}
+44:     -> Evolving tree number 8 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 49 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     Progress: 37 trees processed; elapsed 21.9 m
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+25:     -> Evolving tree number 27 {1}
+01:     -> Evolving tree number 51 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+13:     -> Evolving tree number 39 {1}
+47:     -> Evolving tree number 5 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     Progress: 41 trees processed; elapsed 23.5 m
+42:     -> Evolving tree number 10 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 42 trees processed; elapsed 24.6 m
+05:     -> Evolving tree number 47 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 43 trees processed; elapsed 25.9 m
+46:     -> Evolving tree number 6 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 23 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 45 trees processed; elapsed 26.9 m
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 42 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 47 trees processed; elapsed 28.2 m
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 52 trees processed; elapsed 29.3 m
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 41 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 4 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 25 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 56 trees processed; elapsed 31.5 m
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+38:     -> Evolving tree number 14 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 58 trees processed; elapsed 32.8 m
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 61 trees processed; elapsed 34.0 m
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 68 trees processed; elapsed 35.4 m
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+#0  0x97ecc7 in signal_handler_sigfpe
+	at ./work/build/error/_module.p.F90:472
+#1  0x153729e3fb2f in ???
+#2  0x22a56f3 in node_component_hot_halo_standard_outflowing_mass_rate
+	at ./work/build/objects/nodes/components/hot_halo/standard/_class.p.F90:1386
+#3  0x20cb924 in __galacticus_nodes_MOD_hothalostandardoutflowingmassrate
+	at ./work/build/objects/nodes/_class.p.F90:53304
+#4  0x1b6861e in __nodes_operators_MOD_stellarfeedbackdisksdifferentialevolution
+	at ./work/build/nodes/operators/physics/stellar_feedback/disks.p.F90:417
+#5  0x1abe6d0 in __nodes_operators_MOD_multidifferentialevolution
+	at ./work/build/nodes/operators/multi.p.F90:329
+#6  0x1abe6d0 in __nodes_operators_MOD_multidifferentialevolution
+	at ./work/build/nodes/operators/multi.p.F90:319
+#7  0x14fe676 in __merger_trees_evolve_node.mergertreenodeevolverstandard__MOD_standardderivativescompute
+	at ./work/build/merger_trees/node_evolver/standard.p.F90:1767
+#8  0x14fe9de in __merger_trees_evolve_node.mergertreenodeevolverstandard__MOD_standardodes
+	at ./work/build/merger_trees/node_evolver/standard.p.F90:1591
+#9  0x1e3a199 in derivativeswrapper
+	at ./work/build/numerical/ODE_solver/solver.p.F90:763
+#10  0x15372af335bc in rkck_apply
+	at ode-initval/rkck.c:299
+#11  0x15372af34709 in gsl_odeiv2_step_apply
+	at ode-initval2/step.c:73
+#12  0x15372af38577 in gsl_odeiv2_evolve_apply
+	at ode-initval2/evolve.c:182
+#13  0x4128f6 in gsl_odeiv2_driver2_apply
+	at source/external/gslODEInitVal2/driver2.c:192
+#14  0x1e60f7d in __numerical_ode_solvers_MOD_odesolversolve
+	at ./work/build/numerical/ODE_solver/solver.p.F90:641
+#15  0x151049d in __merger_trees_evolve_node_MOD_standardevolve
+	at ./work/build/merger_trees/node_evolver/standard.p.F90:1326
+#16  0x146f8c2 in __merger_trees_evolve_MOD_standardevolve
+	at ./work/build/merger_trees/evolver/standard.p.F90:958
+#17  0x392f892 in __tasks_MOD_evolveforestsperform._omp_fn.0
+	at ./work/build/tasks/evolve_forests/_class.p.F90:1807
+#18  0x15372a11170d in gomp_thread_start
+	at ../../../libgomp/team.c:129
+#19  0x153729e8b568 in ???
+#20  0x153729f1075f in ???
+#21  0xffffffffffffffff in ???
+ Galacticus experienced a floating point exception - will try to flush data before exiting.
+  => Error occurred in thread            3
+  => Command line was: /home/sackah/Galacticus/galacticus/Galacticus.exe /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml /home/sackah/milkyway/parameter_files/lmcConstraint.xml
+  => The following warnings were issued:
+ Using default value for parameter '[errorWaitTime]'
+ Using default value for parameter '[componentBlackHole/outputMergers]'
+ Using default value for parameter '[componentDisk/toleranceAbsoluteMass]'
+ Using default value for parameter '[componentHotHalo/starveSatellitesOutflowed]'
+ Using default value for parameter '[componentSpheroid/toleranceRelativeMetallicity]'
+ Using default value for parameter '[stellarPopulationSpectraPostprocessorBuilder/names]'
+ Using default class for parameter '[stellarPopulationSpectraPostprocessor]'
+ Using default class for parameter '[stellarPopulationSpectraPostprocessorBuilder]'
+ Using default value for parameter '[task/countForestsMaximum]'
+ Using default value for parameter '[mergerTreeConstructor/mergerTreeConstructor/timeSnapTolerance]'
+ Using default value for parameter '[mergerTreeBuilder/mergerTreeBuilder/redshiftMaximum]'
+ Using default value for parameter '[mergerTreeBranchingProbability/gamma4]'
+ Using default value for parameter '[powerSpectrumPrimordial/runningRunning]'
+ Using default value for parameter '[transferFunction/transferFunctionType]'
+ Using default value for parameter '[cosmologicalMassVariance/integrationFailureIsFatal]'
+ Using default value for parameter '[criticalOverdensity/criticalOverdensity/normalization]'
+ Using default value for parameter '[criticalOverdensity/haloEnvironment/normalization]'
+ Using default value for parameter '[haloEnvironment/massEnvironment]'
+ Using default value for parameter '[mergerTreeBuilder/trialCountMaximum]'
+ Using default value for parameter '[randomNumberGenerator/ompThreadOffset]'
+ Using default value for parameter '[cosmologicalMassVariance/haloMassFunction/rootVarianceLogarithmicGradientTolerance]'
+ Using default value for parameter '[criticalOverdensity/haloMassFunction/normalization]'
+ Using default value for parameter '[mergerTreeBuildMasses/radiusTree]'
+ Using default value for parameter '[virialDensityContrast/tableStore]'
+ Using default class for parameter '[darkMatterHaloScale]'
+ Using default value for parameter '[nodeOperator/nodeOperator/factorReset]'
+ Using default value for parameter '[darkMatterProfileScaleRadius/darkMatterProfileScaleRadius/correlationRateDecay]'
+ Using default value for parameter '[darkMatterProfileDMO/chandrasekharIntegralSuppressExtendedMass]'
+ Using default value for parameter '[darkMatterProfileDMO/darkMatterProfileDMO/velocityDispersionUseSeriesExpansion]'
+ Using default value for parameter '[darkMatterProfileHeating/coefficientSecondOrder2]'
+ Using default value for parameter '[darkMatterProfileConcentration/darkMatterProfileScaleRadius/darkMatterProfileScaleRadius/darkMatterProfileScaleRadius/kappa]'
+ Using default class for parameter '[satelliteMassBoundInitializor]'
+ Using default value for parameter '[satelliteTidalStripping/useDynamicalTimeScale]'
+ Using default value for parameter '[satelliteTidalStrippingRadius/efficiencyCentrifugal]'
+ Using default class for parameter '[satelliteTidalStrippingRadius]'
+ Using default class for parameter '[atomicIonizationRateCollisional]'
+ Using default class for parameter '[atomicRecombinationRateRadiative]'
+ Using default class for parameter '[atomicCrossSectionIonizationPhoto]'
+ Using default value for parameter '[starFormationRateDisks/tolerance]'
+ Using default value for parameter '[starFormationRateSurfaceDensityDisks/velocityDispersionDiskGas]'
+ Using default value for parameter '[stellarPopulation/instantaneousRecyclingApproximation]'
+ Using default value for parameter '[initialMassFunction/massUpper]'
+ Using default value for parameter '[stellarAstrophysics/fileName]'
+ Using default class for parameter '[stellarAstrophysics]'
+ Using default value for parameter '[stellarFeedback/initialMassForSupernovaeTypeII]'
+ Using default class for parameter '[supernovaeTypeIa]'
+ Using default class for parameter '[supernovaePopulationIII]'
+ Using default value for parameter '[stellarTracks/fileName]'
+ Using default class for parameter '[stellarTracks]'
+ Using default class for parameter '[stellarWinds]'
+ Using default class for parameter '[stellarFeedback]'
+ Using default value for parameter '[stellarPopulationSpectra/forceZeroMetallicity]'
+ Using default value for parameter '[stellarPopulationBroadBandLuminosities/integrationToleranceRelative]'
+ Using default class for parameter '[stellarPopulationBroadBandLuminosities]'
+ Using default class for parameter '[starFormationHistory]'
+ Using default class for parameter '[starFormationActiveMass]'
+ Using default value for parameter '[galacticDynamicsBarInstability/nodeOperator/nodeOperator/timescaleMinimum]'
+ Using default value for parameter '[darkMatterHaloMassAccretionHistory/formationRedshiftCompute]'
+ Using default class for parameter '[darkMatterHaloMassAccretionHistory]'
+ Using default value for parameter '[blackHoleAccretionRate/bondiHoyleAccretionEnhancementNuclearStarCluster]'
+ Using default value for parameter '[accretionDisks/accretionRateTransitionWidth]'
+ Using default value for parameter '[accretionDisksADAF/accretionDisks/fieldEnhancementOption]'
+ Using default class for parameter '[blackHoleBinarySeparationGrowthRate]'
+ Using default class for parameter '[chemicalState]'
+ Using default class for parameter '[accretionHaloTotal]'
+ Using default value for parameter '[accretionHalo/redshiftReionization]'
+ Using default value for parameter '[intergalacticMediumFilteringMass/timeTooEarlyIsFatal]'
+ Using default class for parameter '[coolingInfallRadius]'
+ Using default value for parameter '[coolingSpecificAngularMomentum/useInteriorMean]'
+ Using default value for parameter '[hotHaloRamPressureStripping/formFactor]'
+ Using default value for parameter '[galacticFilter/nodeOperator/nodeOperator/branchOnly]'
+ Using default class for parameter '[mergerTreeFilter]'
+ Using default class for parameter '[mergerTreeOperator]'
+ Using default class for parameter '[metaTreeProcessingTime]'
+ Using default class for parameter '[universeOperator]'
+ Using default value for parameter '[mergerTreeEvolver/allTreesExistAtFinalTime]'
+ Using default value for parameter '[galacticStructureSolver/includeBaryonGravity]'
+ Using default value for parameter '[mergerTreeNodeEvolver/odeJacobianStepSizeRelative]'
+ Using default class for parameter '[mergerTreeEvolveProfiler]'
+ Using default class for parameter '[mergerTreeInitializor]'
+ Using default value for parameter '[mergerTreeOutputter/outputsGroupName]'
+ Using default class for parameter '[galacticFilter]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default class for parameter '[blackHoleSeeds]'
+ Using default class for parameter '[blackHoleBinaryRecoil]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default class for parameter '[blackHoleBinaryInitialSeparation]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default class for parameter '[mergerProgenitorProperties]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+28:     <- Finished tree
+28:     Progress: 74 trees processed; elapsed 36.5 m
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ Using default value for parameter '[blackHoleSeeds/mass]'
+ Using default value for parameter '[blackHoleBinaryInitialSeparation/spheroidRadiusFraction]'
+ Using default value for parameter '[darkMatterProfile/radiusFractionalPivot]'
+ Using default value for parameter '[mergerMassMovements/destinationStarsMinorMerger]'
+ Using default value for parameter '[massDistributionDisk/componentDisk/scaleHeight]'
+ Using default value for parameter '[hotHaloMassDistribution/beta]'
+ Using default value for parameter '[mergerRemnantSize/ignoreUnphysicalConditions]'
+ Using default value for parameter '[massDistributionSpheroid/componentSpheroid/densityNormalization]'
+ => For help diagnosing this error, see the troubleshooting guide:
+      https://galacticus.readthedocs.io/en/latest/manuals/user-guide/troubleshooting/index.html
+ => This is unexpected and most likely indicates a bug. Please report it (include the message and backtrace above, plus your parameter file):
+      https://github.com/galacticusorg/galacticus/issues/new/choose
+ => Note: backtrace line numbers refer to the preprocessed sources under work/build/ (files ending in .p.F90).
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /home/sackah/Galacticus/datasets/static/
+MM: WARNING: parameter file may be missing important parameter updates - consider updating by running:
+
+              ./scripts/aux/parametersMigrate.py /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml newParameterFile.xml
+
+MM: -> Begin task: merger tree evolution
+00:     NOTE: memory available (128.000 GB) determined from SLURM
+00:     Memory usage: 11.452 GB / 128.000 GB
+00:     -> Evolving tree number 100 {1}
+14:     -> Evolving tree number 86 {1}
+05:     -> Evolving tree number 95 {1}
+42:     -> Evolving tree number 58 {1}
+19:     -> Evolving tree number 81 {1}
+21:     -> Evolving tree number 79 {1}
+24:     -> Evolving tree number 76 {1}
+16:     Memory usage: 14.671 GB / 128.000 GB
+16:     -> Evolving tree number 84 {1}
+28:     -> Evolving tree number 72 {1}
+36:     -> Evolving tree number 64 {1}
+37:     -> Evolving tree number 63 {1}
+13:     -> Evolving tree number 87 {1}
+23:     -> Evolving tree number 77 {1}
+44:     -> Evolving tree number 56 {1}
+41:     -> Evolving tree number 59 {1}
+02:     -> Evolving tree number 98 {1}
+01:     Memory usage: 18.237 GB / 128.000 GB
+01:     -> Evolving tree number 99 {1}
+07:     -> Evolving tree number 93 {1}
+46:     -> Evolving tree number 54 {1}
+34:     -> Evolving tree number 66 {1}
+45:     -> Evolving tree number 55 {1}
+40:     -> Evolving tree number 60 {1}
+09:     -> Evolving tree number 91 {1}
+32:     -> Evolving tree number 68 {1}
+47:     Memory usage: 23.046 GB / 128.000 GB
+47:     -> Evolving tree number 53 {1}
+30:     -> Evolving tree number 70 {1}
+12:     -> Evolving tree number 88 {1}
+11:     -> Evolving tree number 89 {1}
+33:     -> Evolving tree number 67 {1}
+39:     -> Evolving tree number 61 {1}
+38:     -> Evolving tree number 62 {1}
+15:     -> Evolving tree number 85 {1}
+31:     Memory usage: 29.627 GB / 128.000 GB
+31:     -> Evolving tree number 69 {1}
+18:     -> Evolving tree number 82 {1}
+25:     -> Evolving tree number 75 {1}
+27:     -> Evolving tree number 73 {1}
+08:     -> Evolving tree number 92 {1}
+43:     -> Evolving tree number 57 {1}
+29:     -> Evolving tree number 71 {1}
+20:     -> Evolving tree number 80 {1}
+10:     -> Evolving tree number 90 {1}
+17:     -> Evolving tree number 83 {1}
+04:     -> Evolving tree number 96 {1}
+35:     -> Evolving tree number 65 {1}
+26:     -> Evolving tree number 74 {1}
+06:     -> Evolving tree number 94 {1}
+03:     -> Evolving tree number 97 {1}
+22:     -> Evolving tree number 78 {1}
+30:         Memory usage: 60.318 GB / 128.000 GB
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     Progress: 1 trees processed; elapsed 8.4 m
+30:     -> Evolving tree number 22 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 49 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 3 trees processed; elapsed 10.5 m
+16:     -> Evolving tree number 36 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     -> Evolving tree number 17 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 5 trees processed; elapsed 12.2 m
+24:     -> Evolving tree number 28 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+34:     -> Evolving tree number 18 {1}
+14:     -> Evolving tree number 38 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+25:     -> Evolving tree number 27 {1}
+39:     -> Evolving tree number 13 {1}
+46:     -> Evolving tree number 6 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 11 trees processed; elapsed 13.3 m
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+27:     -> Evolving tree number 25 {1}
+20:     -> Evolving tree number 32 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+21:     -> Evolving tree number 31 {1}
+05:     -> Evolving tree number 47 {1}
+01:     -> Evolving tree number 51 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 16 trees processed; elapsed 14.6 m
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+22:     -> Evolving tree number 30 {1}
+29:     -> Evolving tree number 23 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 11 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+04:     -> Evolving tree number 48 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+32:     -> Evolving tree number 20 {1}
+45:     -> Evolving tree number 7 {1}
+40:     -> Evolving tree number 12 {1}
+26:     -> Evolving tree number 26 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 24 trees processed; elapsed 15.6 m
+43:     -> Evolving tree number 9 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+13:     -> Evolving tree number 39 {1}
+44:     -> Evolving tree number 8 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+15:     -> Evolving tree number 37 {1}
+38:     -> Evolving tree number 14 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 19 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 42 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 31 trees processed; elapsed 16.8 m
+19:     -> Evolving tree number 33 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 52 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 29 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 34 trees processed; elapsed 18.2 m
+02:     -> Evolving tree number 50 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+08:     -> Evolving tree number 44 {1}
+09:     -> Evolving tree number 43 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 10 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 38 trees processed; elapsed 19.5 m
+06:     -> Evolving tree number 46 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 40 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+36:     -> Evolving tree number 16 {1}
+28:     -> Evolving tree number 24 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     Progress: 42 trees processed; elapsed 20.9 m
+47:     -> Evolving tree number 5 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+31:     -> Evolving tree number 21 {1}
+17:     -> Evolving tree number 35 {1}
+18:     -> Evolving tree number 34 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 46 trees processed; elapsed 22.2 m
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+11:     -> Evolving tree number 41 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 49 trees processed; elapsed 24.1 m
+03:     -> Evolving tree number 1 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+07:     -> Evolving tree number 45 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 53 trees processed; elapsed 25.4 m
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 3 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 15 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 56 trees processed; elapsed 26.4 m
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     Progress: 59 trees processed; elapsed 28.2 m
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 62 trees processed; elapsed 29.3 m
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 4 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 71 trees processed; elapsed 30.5 m
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 73 trees processed; elapsed 31.7 m
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 79 trees processed; elapsed 32.8 m
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 86 trees processed; elapsed 34.0 m
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     Progress: 91 trees processed; elapsed 35.0 m
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 94 trees processed; elapsed 36.2 m
+02:     -> Evolving tree number 2 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 97 trees processed; elapsed 40.2 m
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 99 trees processed; elapsed 41.3 m
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 100 trees processed; elapsed 47.6 m
+MM:     Run-time summary: 100 trees in 47.6 m wall time (1.06 d core-time); mean 15.3 m/tree, max 26.1 m/tree.
+MM: <- Done task: merger tree evolution
+MM: The Johnson et al. (2021) scale radius energy model failed (the total energy was positive, so the scale radius of the primary progenitor was used unchanged) for 0 of the 8919564 nodes to which it was applied (0e-4). This rate depends on both mass resolution and power spectrum, so treat it as a systematic when calibrating this model.

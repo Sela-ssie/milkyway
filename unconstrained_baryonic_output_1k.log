@@ -1,0 +1,3345 @@
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /home/sackah/Galacticus/datasets/static/
+MM: WARNING: parameter file may be missing important parameter updates - consider updating by running:
+
+              ./scripts/aux/parametersMigrate.py /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml newParameterFile.xml
+
+MM: -> Begin task: merger tree evolution
+00:     NOTE: memory available (128.000 GB) determined from SLURM
+00:     Memory usage: 8.848 GB / 128.000 GB
+00:     -> Evolving tree number 1000 {1}
+06:     Memory usage: 13.718 GB / 128.000 GB
+06:     -> Evolving tree number 994 {1}
+08:     -> Evolving tree number 992 {1}
+43:     -> Evolving tree number 957 {1}
+45:     -> Evolving tree number 955 {1}
+20:     -> Evolving tree number 980 {1}
+02:     -> Evolving tree number 998 {1}
+22:     -> Evolving tree number 978 {1}
+47:     -> Evolving tree number 953 {1}
+33:     -> Evolving tree number 967 {1}
+40:     -> Evolving tree number 960 {1}
+12:     -> Evolving tree number 988 {1}
+27:     -> Evolving tree number 973 {1}
+28:     -> Evolving tree number 972 {1}
+38:     -> Evolving tree number 962 {1}
+35:     -> Evolving tree number 965 {1}
+31:     -> Evolving tree number 969 {1}
+19:     -> Evolving tree number 981 {1}
+36:     -> Evolving tree number 964 {1}
+41:     -> Evolving tree number 959 {1}
+14:     -> Evolving tree number 986 {1}
+13:     -> Evolving tree number 987 {1}
+23:     -> Evolving tree number 977 {1}
+39:     -> Evolving tree number 961 {1}
+11:     -> Evolving tree number 989 {1}
+16:     -> Evolving tree number 984 {1}
+05:     -> Evolving tree number 995 {1}
+18:     -> Evolving tree number 982 {1}
+03:     -> Evolving tree number 997 {1}
+25:     -> Evolving tree number 975 {1}
+46:     -> Evolving tree number 954 {1}
+17:     -> Evolving tree number 983 {1}
+44:     -> Evolving tree number 956 {1}
+21:     -> Evolving tree number 979 {1}
+07:     -> Evolving tree number 993 {1}
+15:     -> Evolving tree number 985 {1}
+01:     -> Evolving tree number 999 {1}
+30:     -> Evolving tree number 970 {1}
+32:     -> Evolving tree number 968 {1}
+04:     -> Evolving tree number 996 {1}
+34:     -> Evolving tree number 966 {1}
+42:     -> Evolving tree number 958 {1}
+10:     -> Evolving tree number 990 {1}
+26:     -> Evolving tree number 974 {1}
+24:     -> Evolving tree number 976 {1}
+37:     Memory usage: 17.457 GB / 128.000 GB
+37:     -> Evolving tree number 963 {1}
+29:     -> Evolving tree number 971 {1}
+09:     -> Evolving tree number 991 {1}
+09:         Memory usage: 57.866 GB / 128.000 GB
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     Progress: 1 trees processed; elapsed 11.6 m
+09:     -> Evolving tree number 943 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 947 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     Progress: 3 trees processed; elapsed 13.2 m
+12:     -> Evolving tree number 940 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+30:     -> Evolving tree number 922 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+21:     -> Evolving tree number 931 {1}
+28:     -> Evolving tree number 924 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 8 trees processed; elapsed 14.2 m
+10:     -> Evolving tree number 942 {1}
+13:     -> Evolving tree number 939 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+11:     -> Evolving tree number 941 {1}
+40:     -> Evolving tree number 912 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+23:     -> Evolving tree number 929 {1}
+44:     -> Evolving tree number 908 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 13 trees processed; elapsed 15.7 m
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+15:     -> Evolving tree number 937 {1}
+16:     -> Evolving tree number 936 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 911 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+06:     -> Evolving tree number 946 {1}
+27:     -> Evolving tree number 925 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 18 trees processed; elapsed 16.8 m
+37:     -> Evolving tree number 915 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+38:     -> Evolving tree number 914 {1}
+29:     -> Evolving tree number 923 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+08:     -> Evolving tree number 944 {1}
+31:     -> Evolving tree number 921 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     -> Evolving tree number 917 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 24 trees processed; elapsed 17.9 m
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+32:     -> Evolving tree number 920 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+33:     -> Evolving tree number 919 {1}
+26:     -> Evolving tree number 926 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 910 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 932 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 29 trees processed; elapsed 19.0 m
+04:     -> Evolving tree number 948 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+17:     -> Evolving tree number 935 {1}
+14:     -> Evolving tree number 938 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+22:     -> Evolving tree number 930 {1}
+25:     -> Evolving tree number 927 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 934 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 35 trees processed; elapsed 20.3 m
+07:     -> Evolving tree number 945 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 951 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     -> Evolving tree number 906 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 38 trees processed; elapsed 21.8 m
+43:     -> Evolving tree number 909 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 949 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 913 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 928 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 42 trees processed; elapsed 23.4 m
+19:     -> Evolving tree number 933 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 952 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 950 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     -> Evolving tree number 916 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 46 trees processed; elapsed 24.7 m
+05:     -> Evolving tree number 899 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 918 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 48 trees processed; elapsed 26.4 m
+45:     -> Evolving tree number 907 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 49 trees processed; elapsed 29.0 m
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+21:     -> Evolving tree number 883 {1}
+09:     -> Evolving tree number 895 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 867 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 894 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 891 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     Progress: 54 trees processed; elapsed 30.1 m
+47:     -> Evolving tree number 905 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+38:     -> Evolving tree number 866 {1}
+40:     -> Evolving tree number 864 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 878 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 58 trees processed; elapsed 31.2 m
+46:     -> Evolving tree number 858 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+25:     -> Evolving tree number 879 {1}
+31:     -> Evolving tree number 873 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 61 trees processed; elapsed 33.2 m
+28:     -> Evolving tree number 876 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 863 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 889 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 881 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 898 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 66 trees processed; elapsed 34.6 m
+04:     -> Evolving tree number 900 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 871 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     Progress: 68 trees processed; elapsed 35.7 m
+30:     -> Evolving tree number 874 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 892 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 71 trees processed; elapsed 36.7 m
+11:     -> Evolving tree number 893 {1}
+14:     -> Evolving tree number 890 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+16:     -> Evolving tree number 888 {1}
+44:     -> Evolving tree number 860 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 886 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+29:     -> Evolving tree number 875 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+27:     -> Evolving tree number 877 {1}
+32:     -> Evolving tree number 872 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 78 trees processed; elapsed 38.6 m
+03:     -> Evolving tree number 901 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 885 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 80 trees processed; elapsed 39.7 m
+39:     -> Evolving tree number 865 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     -> Evolving tree number 869 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 82 trees processed; elapsed 41.6 m
+17:     -> Evolving tree number 887 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 902 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 84 trees processed; elapsed 43.3 m
+08:     -> Evolving tree number 896 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 882 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 86 trees processed; elapsed 44.4 m
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+10:     -> Evolving tree number 846 {1}
+20:     -> Evolving tree number 884 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 897 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 851 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 830 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 91 trees processed; elapsed 45.5 m
+38:     -> Evolving tree number 818 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 859 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+34:     -> Evolving tree number 870 {1}
+01:     -> Evolving tree number 903 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 95 trees processed; elapsed 47.3 m
+36:     -> Evolving tree number 868 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 843 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 97 trees processed; elapsed 49.1 m
+43:     -> Evolving tree number 861 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 880 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 904 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 100 trees processed; elapsed 50.4 m
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+46:     -> Evolving tree number 810 {1}
+32:     -> Evolving tree number 824 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 847 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 103 trees processed; elapsed 51.9 m
+14:     -> Evolving tree number 842 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 862 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     Progress: 105 trees processed; elapsed 53.0 m
+44:     -> Evolving tree number 812 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+15:     -> Evolving tree number 841 {1}
+33:     -> Evolving tree number 823 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 108 trees processed; elapsed 54.1 m
+37:     -> Evolving tree number 819 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 844 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+27:     -> Evolving tree number 829 {1}
+02:     -> Evolving tree number 854 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+41:     -> Evolving tree number 815 {1}
+11:     -> Evolving tree number 845 {1}
+39:     -> Evolving tree number 817 {1}
+47:     -> Evolving tree number 857 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 116 trees processed; elapsed 55.5 m
+40:     -> Evolving tree number 816 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 831 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 118 trees processed; elapsed 56.9 m
+17:     -> Evolving tree number 839 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 833 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 840 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 121 trees processed; elapsed 58.5 m
+29:     -> Evolving tree number 827 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 828 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 838 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     -> Evolving tree number 835 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 125 trees processed; elapsed 59.6 m
+03:     -> Evolving tree number 853 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+31:     -> Evolving tree number 825 {1}
+19:     -> Evolving tree number 837 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+43:     -> Evolving tree number 813 {1}
+06:     -> Evolving tree number 850 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 848 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 131 trees processed; elapsed 1.03 h
+07:     -> Evolving tree number 849 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+04:     -> Evolving tree number 852 {1}
+35:     -> Evolving tree number 821 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 134 trees processed; elapsed 1.05 h
+05:     -> Evolving tree number 803 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 834 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 826 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 137 trees processed; elapsed 1.07 h
+46:     -> Evolving tree number 762 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 770 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 806 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 140 trees processed; elapsed 1.10 h
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+45:     -> Evolving tree number 811 {1}
+42:     -> Evolving tree number 814 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 822 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 143 trees processed; elapsed 1.11 h
+00:     -> Evolving tree number 856 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 832 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 145 trees processed; elapsed 1.15 h
+36:     -> Evolving tree number 820 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 780 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 792 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 148 trees processed; elapsed 1.17 h
+14:     -> Evolving tree number 794 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 767 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+10:     -> Evolving tree number 798 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+47:     -> Evolving tree number 809 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+01:     -> Evolving tree number 855 {1}
+12:     -> Evolving tree number 796 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 154 trees processed; elapsed 1.19 h
+27:     -> Evolving tree number 781 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+29:     -> Evolving tree number 779 {1}
+13:     -> Evolving tree number 795 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 799 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+32:     -> Evolving tree number 776 {1}
+39:     -> Evolving tree number 769 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 160 trees processed; elapsed 1.21 h
+11:     -> Evolving tree number 797 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+15:     -> Evolving tree number 793 {1}
+40:     -> Evolving tree number 768 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 163 trees processed; elapsed 1.24 h
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+26:     -> Evolving tree number 782 {1}
+44:     -> Evolving tree number 764 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 775 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 166 trees processed; elapsed 1.26 h
+37:     -> Evolving tree number 771 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 785 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 783 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     Progress: 169 trees processed; elapsed 1.29 h
+31:     -> Evolving tree number 777 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+17:     -> Evolving tree number 791 {1}
+00:     -> Evolving tree number 808 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 800 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 802 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 174 trees processed; elapsed 1.31 h
+19:     -> Evolving tree number 789 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 755 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+18:     -> Evolving tree number 790 {1}
+35:     -> Evolving tree number 773 {1}
+20:     -> Evolving tree number 836 {1}
+34:     -> Evolving tree number 774 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 180 trees processed; elapsed 1.33 h
+03:     -> Evolving tree number 805 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     -> Evolving tree number 714 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 722 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     -> Evolving tree number 787 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 184 trees processed; elapsed 1.35 h
+22:     -> Evolving tree number 786 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 185 trees processed; elapsed 1.37 h
+16:     -> Evolving tree number 744 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 804 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 187 trees processed; elapsed 1.39 h
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+28:     -> Evolving tree number 732 {1}
+41:     -> Evolving tree number 719 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 801 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 763 {1}
+43:     -> Evolving tree number 765 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 193 trees processed; elapsed 1.41 h
+40:     -> Evolving tree number 720 {1}
+13:     -> Evolving tree number 747 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 758 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 778 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 196 trees processed; elapsed 1.43 h
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+15:     -> Evolving tree number 745 {1}
+29:     -> Evolving tree number 731 {1}
+42:     -> Evolving tree number 766 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 199 trees processed; elapsed 1.45 h
+32:     -> Evolving tree number 728 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 754 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 201 trees processed; elapsed 1.48 h
+36:     -> Evolving tree number 772 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 735 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 748 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     Progress: 204 trees processed; elapsed 1.50 h
+47:     -> Evolving tree number 761 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 734 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 206 trees processed; elapsed 1.52 h
+23:     -> Evolving tree number 737 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 751 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 721 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 742 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 210 trees processed; elapsed 1.54 h
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+24:     -> Evolving tree number 784 {1}
+27:     -> Evolving tree number 733 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 716 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 750 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 214 trees processed; elapsed 1.57 h
+37:     -> Evolving tree number 723 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 738 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 216 trees processed; elapsed 1.59 h
+01:     -> Evolving tree number 807 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 746 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 730 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 219 trees processed; elapsed 1.61 h
+00:     -> Evolving tree number 760 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 743 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 221 trees processed; elapsed 1.63 h
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+05:     -> Evolving tree number 707 {1}
+08:     -> Evolving tree number 752 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 726 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 696 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 788 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 226 trees processed; elapsed 1.65 h
+38:     -> Evolving tree number 674 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 227 trees processed; elapsed 1.67 h
+35:     -> Evolving tree number 725 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 749 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 229 trees processed; elapsed 1.69 h
+03:     -> Evolving tree number 757 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 753 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 741 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 232 trees processed; elapsed 1.71 h
+40:     -> Evolving tree number 672 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 699 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     -> Evolving tree number 739 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 710 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 236 trees processed; elapsed 1.74 h
+33:     -> Evolving tree number 727 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 718 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 238 trees processed; elapsed 1.76 h
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+46:     -> Evolving tree number 666 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+47:     -> Evolving tree number 713 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+36:     -> Evolving tree number 724 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+28:     -> Evolving tree number 684 {1}
+41:     -> Evolving tree number 671 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 243 trees processed; elapsed 1.77 h
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+04:     -> Evolving tree number 756 {1}
+32:     -> Evolving tree number 680 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 703 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 729 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 247 trees processed; elapsed 1.79 h
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+06:     -> Evolving tree number 706 {1}
+43:     -> Evolving tree number 717 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 687 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 715 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 251 trees processed; elapsed 1.82 h
+22:     -> Evolving tree number 690 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 736 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 253 trees processed; elapsed 1.85 h
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+23:     -> Evolving tree number 689 {1}
+12:     -> Evolving tree number 700 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 673 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 256 trees processed; elapsed 1.87 h
+15:     -> Evolving tree number 697 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 702 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 258 trees processed; elapsed 1.89 h
+17:     -> Evolving tree number 695 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 259 trees processed; elapsed 1.92 h
+11:     -> Evolving tree number 701 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 698 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 709 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 262 trees processed; elapsed 1.93 h
+16:     -> Evolving tree number 648 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+26:     -> Evolving tree number 686 {1}
+01:     -> Evolving tree number 759 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 712 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     Progress: 266 trees processed; elapsed 1.95 h
+44:     -> Evolving tree number 668 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     Progress: 267 trees processed; elapsed 1.97 h
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+18:     -> Evolving tree number 694 {1}
+07:     -> Evolving tree number 705 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 685 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 683 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 271 trees processed; elapsed 1.99 h
+08:     -> Evolving tree number 704 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 272 trees processed; elapsed 2.01 h
+19:     -> Evolving tree number 693 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 675 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 274 trees processed; elapsed 2.02 h
+34:     -> Evolving tree number 678 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+05:     -> Evolving tree number 659 {1}
+35:     -> Evolving tree number 677 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 277 trees processed; elapsed 2.04 h
+38:     -> Evolving tree number 626 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 278 trees processed; elapsed 2.06 h
+20:     -> Evolving tree number 740 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 651 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 688 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     -> Evolving tree number 624 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 282 trees processed; elapsed 2.09 h
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+33:     -> Evolving tree number 679 {1}
+21:     -> Evolving tree number 691 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     Progress: 284 trees processed; elapsed 2.11 h
+25:     -> Evolving tree number 639 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     -> Evolving tree number 618 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 286 trees processed; elapsed 2.13 h
+28:     -> Evolving tree number 636 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+04:     -> Evolving tree number 708 {1}
+23:     -> Evolving tree number 641 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 289 trees processed; elapsed 2.16 h
+01:     -> Evolving tree number 711 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 682 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+31:     -> Evolving tree number 681 {1}
+47:     -> Evolving tree number 665 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 293 trees processed; elapsed 2.18 h
+45:     -> Evolving tree number 667 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 650 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     -> Evolving tree number 676 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 296 trees processed; elapsed 2.20 h
+39:     -> Evolving tree number 625 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 670 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+06:     -> Evolving tree number 658 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+41:     -> Evolving tree number 623 {1}
+10:     -> Evolving tree number 654 {1}
+44:     -> Evolving tree number 620 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 302 trees processed; elapsed 2.22 h
+43:     -> Evolving tree number 669 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 642 {1}
+09:     -> Evolving tree number 655 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 305 trees processed; elapsed 2.24 h
+37:     -> Evolving tree number 627 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 662 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 307 trees processed; elapsed 2.28 h
+19:     -> Evolving tree number 645 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 632 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 309 trees processed; elapsed 2.31 h
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+24:     -> Evolving tree number 640 {1}
+12:     -> Evolving tree number 652 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 600 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 649 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 646 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 314 trees processed; elapsed 2.33 h
+17:     -> Evolving tree number 647 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 656 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 603 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 661 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 318 trees processed; elapsed 2.36 h
+27:     -> Evolving tree number 637 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 319 trees processed; elapsed 2.38 h
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+05:     -> Evolving tree number 611 {1}
+33:     -> Evolving tree number 631 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 638 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 578 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 323 trees processed; elapsed 2.40 h
+35:     -> Evolving tree number 629 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 657 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 653 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     -> Evolving tree number 570 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 327 trees processed; elapsed 2.45 h
+21:     -> Evolving tree number 643 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 630 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 329 trees processed; elapsed 2.47 h
+20:     -> Evolving tree number 692 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 635 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 331 trees processed; elapsed 2.50 h
+00:     -> Evolving tree number 664 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     Progress: 332 trees processed; elapsed 2.52 h
+25:     -> Evolving tree number 591 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 588 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     -> Evolving tree number 576 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 622 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 660 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 337 trees processed; elapsed 2.54 h
+06:     -> Evolving tree number 610 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 572 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 633 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 634 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 341 trees processed; elapsed 2.57 h
+36:     -> Evolving tree number 628 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 619 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 602 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 663 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 345 trees processed; elapsed 2.59 h
+43:     -> Evolving tree number 621 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 346 trees processed; elapsed 2.61 h
+10:     -> Evolving tree number 606 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     -> Evolving tree number 617 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 593 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 555 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     Progress: 350 trees processed; elapsed 2.64 h
+09:     -> Evolving tree number 607 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 592 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 352 trees processed; elapsed 2.66 h
+37:     -> Evolving tree number 579 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 608 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+19:     -> Evolving tree number 597 {1}
+16:     -> Evolving tree number 552 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 356 trees processed; elapsed 2.69 h
+35:     -> Evolving tree number 581 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+22:     -> Evolving tree number 594 {1}
+21:     -> Evolving tree number 595 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 359 trees processed; elapsed 2.71 h
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+33:     -> Evolving tree number 583 {1}
+12:     -> Evolving tree number 604 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 584 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 362 trees processed; elapsed 2.73 h
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+41:     -> Evolving tree number 575 {1}
+18:     -> Evolving tree number 598 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 589 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 365 trees processed; elapsed 2.75 h
+39:     -> Evolving tree number 577 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 599 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 601 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 590 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 369 trees processed; elapsed 2.77 h
+05:     -> Evolving tree number 563 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 613 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 371 trees processed; elapsed 2.80 h
+02:     -> Evolving tree number 614 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 372 trees processed; elapsed 2.81 h
+11:     -> Evolving tree number 605 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 545 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 530 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 543 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 376 trees processed; elapsed 2.84 h
+29:     -> Evolving tree number 587 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 524 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     -> Evolving tree number 528 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 379 trees processed; elapsed 2.86 h
+46:     -> Evolving tree number 522 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 582 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 381 trees processed; elapsed 2.90 h
+00:     -> Evolving tree number 616 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 609 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 383 trees processed; elapsed 2.92 h
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+20:     -> Evolving tree number 644 {1}
+30:     -> Evolving tree number 586 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 585 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 571 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 387 trees processed; elapsed 2.94 h
+28:     -> Evolving tree number 540 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 554 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 573 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 549 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 391 trees processed; elapsed 2.96 h
+36:     -> Evolving tree number 580 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 544 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 562 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 394 trees processed; elapsed 2.99 h
+22:     -> Evolving tree number 546 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 560 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 396 trees processed; elapsed 3.01 h
+04:     -> Evolving tree number 612 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 559 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 527 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 399 trees processed; elapsed 3.03 h
+01:     -> Evolving tree number 615 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 400 trees processed; elapsed 3.06 h
+13:     -> Evolving tree number 507 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+37:     -> Evolving tree number 531 {1}
+12:     -> Evolving tree number 556 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 553 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 536 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 558 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 406 trees processed; elapsed 3.08 h
+21:     -> Evolving tree number 547 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 574 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 551 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 409 trees processed; elapsed 3.10 h
+26:     -> Evolving tree number 542 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 410 trees processed; elapsed 3.14 h
+27:     -> Evolving tree number 541 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+39:     -> Evolving tree number 529 {1}
+47:     -> Evolving tree number 569 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 504 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 414 trees processed; elapsed 3.16 h
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+33:     -> Evolving tree number 535 {1}
+35:     -> Evolving tree number 533 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 416 trees processed; elapsed 3.18 h
+43:     -> Evolving tree number 525 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 482 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 418 trees processed; elapsed 3.20 h
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+05:     -> Evolving tree number 515 {1}
+25:     -> Evolving tree number 495 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 550 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 566 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 596 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 423 trees processed; elapsed 3.23 h
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+23:     -> Evolving tree number 497 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+44:     -> Evolving tree number 476 {1}
+24:     -> Evolving tree number 496 {1}
+40:     -> Evolving tree number 480 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+11:     -> Evolving tree number 557 {1}
+46:     -> Evolving tree number 474 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 429 trees processed; elapsed 3.25 h
+14:     -> Evolving tree number 506 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 430 trees processed; elapsed 3.30 h
+07:     -> Evolving tree number 561 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 538 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 508 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 433 trees processed; elapsed 3.32 h
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+03:     -> Evolving tree number 565 {1}
+22:     -> Evolving tree number 498 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+28:     -> Evolving tree number 492 {1}
+00:     -> Evolving tree number 568 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 564 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 438 trees processed; elapsed 3.34 h
+17:     -> Evolving tree number 503 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 488 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 501 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 441 trees processed; elapsed 3.38 h
+08:     -> Evolving tree number 512 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 567 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 514 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 444 trees processed; elapsed 3.41 h
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+45:     -> Evolving tree number 523 {1}
+09:     -> Evolving tree number 511 {1}
+36:     -> Evolving tree number 532 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 447 trees processed; elapsed 3.43 h
+26:     -> Evolving tree number 494 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 483 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 456 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 450 trees processed; elapsed 3.45 h
+15:     -> Evolving tree number 505 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 534 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 452 trees processed; elapsed 3.47 h
+39:     -> Evolving tree number 481 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 493 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 454 trees processed; elapsed 3.49 h
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+10:     -> Evolving tree number 510 {1}
+31:     -> Evolving tree number 537 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     Progress: 456 trees processed; elapsed 3.51 h
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+12:     -> Evolving tree number 460 {1}
+47:     -> Evolving tree number 521 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 434 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     -> Evolving tree number 485 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 460 trees processed; elapsed 3.53 h
+41:     -> Evolving tree number 479 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 459 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 539 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 463 trees processed; elapsed 3.55 h
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+00:     -> Evolving tree number 520 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+33:     -> Evolving tree number 487 {1}
+42:     -> Evolving tree number 526 {1}
+25:     -> Evolving tree number 447 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 467 trees processed; elapsed 3.57 h
+05:     -> Evolving tree number 467 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     -> Evolving tree number 499 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 469 trees processed; elapsed 3.60 h
+02:     -> Evolving tree number 518 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+43:     -> Evolving tree number 477 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     Progress: 472 trees processed; elapsed 3.62 h
+23:     -> Evolving tree number 449 {1}
+30:     -> Evolving tree number 490 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 502 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 474 trees processed; elapsed 3.64 h
+40:     -> Evolving tree number 432 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+24:     -> Evolving tree number 448 {1}
+14:     -> Evolving tree number 458 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 477 trees processed; elapsed 3.68 h
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+28:     -> Evolving tree number 444 {1}
+46:     -> Evolving tree number 426 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 446 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 480 trees processed; elapsed 3.70 h
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+22:     -> Evolving tree number 450 {1}
+11:     -> Evolving tree number 509 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 463 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 483 trees processed; elapsed 3.73 h
+36:     -> Evolving tree number 484 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 453 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+32:     -> Evolving tree number 440 {1}
+03:     -> Evolving tree number 517 {1}
+44:     -> Evolving tree number 428 {1}
+20:     -> Evolving tree number 548 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 489 trees processed; elapsed 3.75 h
+15:     -> Evolving tree number 457 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 490 trees processed; elapsed 3.77 h
+07:     -> Evolving tree number 513 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 516 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 431 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 493 trees processed; elapsed 3.80 h
+13:     -> Evolving tree number 411 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 464 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 495 trees processed; elapsed 3.82 h
+35:     -> Evolving tree number 437 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+21:     -> Evolving tree number 451 {1}
+25:     -> Evolving tree number 399 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 433 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 499 trees processed; elapsed 3.87 h
+27:     -> Evolving tree number 445 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+47:     -> Evolving tree number 473 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+06:     -> Evolving tree number 466 {1}
+05:     -> Evolving tree number 419 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 491 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 504 trees processed; elapsed 3.89 h
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+10:     -> Evolving tree number 462 {1}
+30:     -> Evolving tree number 442 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+12:     -> Evolving tree number 412 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+37:     -> Evolving tree number 435 {1}
+17:     -> Evolving tree number 455 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+24:     -> Evolving tree number 400 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+45:     -> Evolving tree number 475 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+00:     -> Evolving tree number 472 {1}
+33:     -> Evolving tree number 439 {1}
+01:     -> Evolving tree number 519 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 514 trees processed; elapsed 3.92 h
+16:     -> Evolving tree number 408 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 401 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 516 trees processed; elapsed 3.94 h
+34:     -> Evolving tree number 486 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 386 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 518 trees processed; elapsed 3.97 h
+43:     -> Evolving tree number 429 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 489 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 454 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 521 trees processed; elapsed 4.02 h
+40:     -> Evolving tree number 384 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 409 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 523 trees processed; elapsed 4.05 h
+36:     -> Evolving tree number 436 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 461 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 402 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 526 trees processed; elapsed 4.07 h
+14:     -> Evolving tree number 410 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 478 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 528 trees processed; elapsed 4.10 h
+46:     -> Evolving tree number 378 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 405 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 530 trees processed; elapsed 4.11 h
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+05:     -> Evolving tree number 371 {1}
+28:     -> Evolving tree number 396 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 380 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 468 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 392 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 535 trees processed; elapsed 4.15 h
+41:     -> Evolving tree number 383 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+37:     -> Evolving tree number 387 {1}
+35:     -> Evolving tree number 389 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 538 trees processed; elapsed 4.17 h
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+06:     -> Evolving tree number 418 {1}
+02:     -> Evolving tree number 470 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 394 {1}
+26:     -> Evolving tree number 398 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 415 {1}
+07:     -> Evolving tree number 465 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 416 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 545 trees processed; elapsed 4.19 h
+38:     -> Evolving tree number 338 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 363 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+21:     -> Evolving tree number 403 {1}
+47:     -> Evolving tree number 425 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 397 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 550 trees processed; elapsed 4.22 h
+01:     -> Evolving tree number 471 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 551 trees processed; elapsed 4.24 h
+33:     -> Evolving tree number 391 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 360 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 553 trees processed; elapsed 4.26 h
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+20:     -> Evolving tree number 500 {1}
+29:     -> Evolving tree number 443 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+24:     -> Evolving tree number 352 {1}
+03:     -> Evolving tree number 469 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 385 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 558 trees processed; elapsed 4.29 h
+00:     -> Evolving tree number 424 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 351 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 560 trees processed; elapsed 4.33 h
+23:     -> Evolving tree number 353 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 438 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     Progress: 562 trees processed; elapsed 4.34 h
+12:     -> Evolving tree number 364 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 563 trees processed; elapsed 4.36 h
+40:     -> Evolving tree number 336 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 564 trees processed; elapsed 4.39 h
+15:     -> Evolving tree number 361 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 332 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 430 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 381 {1}
+45:     -> Evolving tree number 427 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 569 trees processed; elapsed 4.42 h
+13:     -> Evolving tree number 315 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 348 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 571 trees processed; elapsed 4.44 h
+11:     -> Evolving tree number 413 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+14:     -> Evolving tree number 362 {1}
+10:     -> Evolving tree number 414 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 323 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 575 trees processed; elapsed 4.46 h
+08:     -> Evolving tree number 368 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 422 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 407 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 578 trees processed; elapsed 4.49 h
+35:     -> Evolving tree number 341 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 441 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     Progress: 580 trees processed; elapsed 4.50 h
+09:     -> Evolving tree number 367 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 346 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 343 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 312 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 584 trees processed; elapsed 4.52 h
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+37:     -> Evolving tree number 339 {1}
+46:     -> Evolving tree number 330 {1}
+18:     -> Evolving tree number 406 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 587 trees processed; elapsed 4.54 h
+32:     -> Evolving tree number 344 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     -> Evolving tree number 388 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     Progress: 589 trees processed; elapsed 4.57 h
+47:     -> Evolving tree number 377 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     -> Evolving tree number 335 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 591 trees processed; elapsed 4.60 h
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+40:     -> Evolving tree number 288 {1}
+20:     -> Evolving tree number 452 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 290 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 357 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 595 trees processed; elapsed 4.62 h
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+01:     -> Evolving tree number 423 {1}
+23:     -> Evolving tree number 305 {1}
+22:     -> Evolving tree number 354 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 349 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 599 trees processed; elapsed 4.64 h
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+21:     -> Evolving tree number 355 {1}
+04:     -> Evolving tree number 420 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 303 {1}
+07:     -> Evolving tree number 417 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 284 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 604 trees processed; elapsed 4.67 h
+34:     -> Evolving tree number 390 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+39:     -> Evolving tree number 337 {1}
+26:     -> Evolving tree number 350 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 320 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 608 trees processed; elapsed 4.70 h
+24:     -> Evolving tree number 304 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 382 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 313 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 611 trees processed; elapsed 4.72 h
+43:     -> Evolving tree number 333 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 316 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 300 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 614 trees processed; elapsed 4.75 h
+29:     -> Evolving tree number 395 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+00:     -> Evolving tree number 376 {1}
+47:     -> Evolving tree number 329 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 275 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 618 trees processed; elapsed 4.78 h
+35:     -> Evolving tree number 293 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 370 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 314 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 621 trees processed; elapsed 4.80 h
+13:     -> Evolving tree number 267 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 359 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 365 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     Progress: 624 trees processed; elapsed 4.82 h
+18:     -> Evolving tree number 358 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 298 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 421 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 374 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     Progress: 628 trees processed; elapsed 4.85 h
+31:     -> Evolving tree number 393 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 306 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 366 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 631 trees processed; elapsed 4.87 h
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+27:     -> Evolving tree number 301 {1}
+09:     -> Evolving tree number 319 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 633 trees processed; elapsed 4.90 h
+34:     -> Evolving tree number 342 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     -> Evolving tree number 240 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 375 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 291 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 637 trees processed; elapsed 4.92 h
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+38:     -> Evolving tree number 242 {1}
+25:     -> Evolving tree number 255 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 639 trees processed; elapsed 4.94 h
+41:     -> Evolving tree number 287 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 640 trees processed; elapsed 4.96 h
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+16:     -> Evolving tree number 264 {1}
+45:     -> Evolving tree number 379 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 289 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 404 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 644 trees processed; elapsed 4.98 h
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     -> Evolving tree number 340 {1}
+33:     <- Finished tree
+07:     -> Evolving tree number 369 {1}
+21:     -> Evolving tree number 307 {1}
+33:     -> Evolving tree number 295 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 648 trees processed; elapsed 5.01 h
+46:     -> Evolving tree number 282 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 649 trees processed; elapsed 5.03 h
+32:     -> Evolving tree number 296 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 257 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     -> Evolving tree number 281 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 652 trees processed; elapsed 5.05 h
+29:     -> Evolving tree number 347 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 326 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 654 trees processed; elapsed 5.06 h
+00:     -> Evolving tree number 328 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 372 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 227 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 657 trees processed; elapsed 5.09 h
+03:     -> Evolving tree number 373 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 285 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+12:     -> Evolving tree number 268 {1}
+15:     -> Evolving tree number 265 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 661 trees processed; elapsed 5.11 h
+35:     -> Evolving tree number 245 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 317 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 663 trees processed; elapsed 5.12 h
+26:     -> Evolving tree number 302 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     -> Evolving tree number 236 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 310 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 666 trees processed; elapsed 5.16 h
+13:     -> Evolving tree number 219 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 272 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 322 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 309 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 670 trees processed; elapsed 5.19 h
+17:     -> Evolving tree number 311 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 252 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 672 trees processed; elapsed 5.21 h
+24:     -> Evolving tree number 256 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 673 trees processed; elapsed 5.23 h
+40:     -> Evolving tree number 192 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 674 trees processed; elapsed 5.25 h
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+16:     -> Evolving tree number 216 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+31:     -> Evolving tree number 345 {1}
+22:     -> Evolving tree number 258 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 334 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     -> Evolving tree number 266 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+27:     -> Evolving tree number 253 {1}
+38:     -> Evolving tree number 194 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 681 trees processed; elapsed 5.27 h
+07:     -> Evolving tree number 321 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 682 trees processed; elapsed 5.29 h
+41:     -> Evolving tree number 239 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     -> Evolving tree number 292 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 684 trees processed; elapsed 5.31 h
+39:     -> Evolving tree number 241 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 243 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 686 trees processed; elapsed 5.33 h
+34:     -> Evolving tree number 294 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 271 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 331 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 689 trees processed; elapsed 5.35 h
+33:     -> Evolving tree number 247 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     -> Evolving tree number 209 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     Progress: 691 trees processed; elapsed 5.38 h
+21:     -> Evolving tree number 259 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+29:     -> Evolving tree number 299 {1}
+30:     -> Evolving tree number 250 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 318 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 695 trees processed; elapsed 5.41 h
+32:     -> Evolving tree number 248 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 696 trees processed; elapsed 5.43 h
+05:     -> Evolving tree number 179 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 697 trees processed; elapsed 5.45 h
+02:     -> Evolving tree number 278 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 220 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 237 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+25:     -> Evolving tree number 207 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 701 trees processed; elapsed 5.46 h
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+20:     -> Evolving tree number 356 {1}
+47:     -> Evolving tree number 233 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+18:     -> Evolving tree number 262 {1}
+15:     -> Evolving tree number 217 {1}
+01:     -> Evolving tree number 327 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 706 trees processed; elapsed 5.49 h
+40:     -> Evolving tree number 144 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 280 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 708 trees processed; elapsed 5.51 h
+08:     -> Evolving tree number 224 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 254 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 274 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 711 trees processed; elapsed 5.53 h
+04:     -> Evolving tree number 324 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 297 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 713 trees processed; elapsed 5.55 h
+35:     -> Evolving tree number 197 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+19:     -> Evolving tree number 261 {1}
+46:     -> Evolving tree number 234 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     Progress: 716 trees processed; elapsed 5.57 h
+27:     -> Evolving tree number 205 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+28:     -> Evolving tree number 204 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+11:     -> Evolving tree number 269 {1}
+44:     -> Evolving tree number 188 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 720 trees processed; elapsed 5.60 h
+17:     -> Evolving tree number 263 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 286 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 273 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     Progress: 723 trees processed; elapsed 5.64 h
+30:     -> Evolving tree number 202 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+03:     -> Evolving tree number 325 {1}
+09:     -> Evolving tree number 223 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 726 trees processed; elapsed 5.66 h
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+23:     -> Evolving tree number 161 {1}
+16:     -> Evolving tree number 168 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 728 trees processed; elapsed 5.68 h
+29:     -> Evolving tree number 251 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 193 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 246 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 146 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+22:     -> Evolving tree number 210 {1}
+45:     -> Evolving tree number 283 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 734 trees processed; elapsed 5.70 h
+14:     -> Evolving tree number 218 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 208 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 214 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 737 trees processed; elapsed 5.71 h
+33:     -> Evolving tree number 199 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 738 trees processed; elapsed 5.75 h
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+32:     -> Evolving tree number 200 {1}
+36:     -> Evolving tree number 244 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+40:     -> Evolving tree number 96 {1}
+13:     -> Evolving tree number 171 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 172 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 743 trees processed; elapsed 5.77 h
+41:     -> Evolving tree number 191 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 230 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+20:     -> Evolving tree number 308 {1}
+05:     -> Evolving tree number 131 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 747 trees processed; elapsed 5.80 h
+10:     -> Evolving tree number 270 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 748 trees processed; elapsed 5.84 h
+35:     -> Evolving tree number 149 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+21:     -> Evolving tree number 211 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 276 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     Progress: 751 trees processed; elapsed 5.86 h
+31:     -> Evolving tree number 249 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 226 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     -> Evolving tree number 120 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 754 trees processed; elapsed 5.87 h
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+26:     -> Evolving tree number 206 {1}
+08:     -> Evolving tree number 176 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 189 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     Progress: 757 trees processed; elapsed 5.89 h
+38:     -> Evolving tree number 98 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+07:     -> Evolving tree number 225 {1}
+30:     -> Evolving tree number 154 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 213 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+25:     -> Evolving tree number 159 {1}
+44:     -> Evolving tree number 140 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 763 trees processed; elapsed 5.91 h
+15:     -> Evolving tree number 169 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 764 trees processed; elapsed 5.93 h
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+46:     -> Evolving tree number 186 {1}
+47:     -> Evolving tree number 185 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+01:     -> Evolving tree number 279 {1}
+17:     -> Evolving tree number 215 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 232 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 769 trees processed; elapsed 5.97 h
+03:     -> Evolving tree number 277 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 156 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 195 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 772 trees processed; elapsed 6.00 h
+22:     -> Evolving tree number 162 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 166 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     Progress: 774 trees processed; elapsed 6.02 h
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+09:     -> Evolving tree number 175 {1}
+14:     -> Evolving tree number 170 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+36:     -> Evolving tree number 196 {1}
+45:     -> Evolving tree number 235 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 157 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 779 trees processed; elapsed 6.04 h
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+39:     -> Evolving tree number 145 {1}
+23:     -> Evolving tree number 113 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 238 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 782 trees processed; elapsed 6.06 h
+29:     -> Evolving tree number 203 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 198 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     Progress: 784 trees processed; elapsed 6.09 h
+20:     -> Evolving tree number 260 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 221 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 786 trees processed; elapsed 6.11 h
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+08:     -> Evolving tree number 128 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+24:     -> Evolving tree number 160 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+41:     -> Evolving tree number 143 {1}
+31:     -> Evolving tree number 201 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 151 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 791 trees processed; elapsed 6.13 h
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+13:     -> Evolving tree number 123 {1}
+21:     -> Evolving tree number 163 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     Progress: 793 trees processed; elapsed 6.15 h
+15:     -> Evolving tree number 121 {1}
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+00:     -> Evolving tree number 184 {1}
+25:     -> Evolving tree number 111 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 50 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     -> Evolving tree number 158 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     Progress: 798 trees processed; elapsed 6.18 h
+05:     -> Evolving tree number 83 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     -> Evolving tree number 182 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 800 trees processed; elapsed 6.19 h
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+40:     -> Evolving tree number 48 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+35:     -> Evolving tree number 101 {1}
+47:     -> Evolving tree number 137 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     -> Evolving tree number 178 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     Progress: 804 trees processed; elapsed 6.23 h
+12:     -> Evolving tree number 124 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     -> Evolving tree number 228 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 165 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     Progress: 807 trees processed; elapsed 6.25 h
+32:     -> Evolving tree number 152 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 222 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     Progress: 809 trees processed; elapsed 6.27 h
+44:     -> Evolving tree number 92 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 231 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     Progress: 811 trees processed; elapsed 6.30 h
+42:     -> Evolving tree number 190 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 118 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 106 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 150 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     Progress: 815 trees processed; elapsed 6.32 h
+17:     -> Evolving tree number 167 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 127 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 817 trees processed; elapsed 6.34 h
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+46:     -> Evolving tree number 138 {1}
+23:     -> Evolving tree number 65 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+43:     -> Evolving tree number 141 {1}
+16:     -> Evolving tree number 72 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 108 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 822 trees processed; elapsed 6.36 h
+14:     -> Evolving tree number 122 {1}
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 114 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 212 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 147 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 826 trees processed; elapsed 6.38 h
+07:     -> Evolving tree number 177 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+36:     -> Evolving tree number 148 {1}
+29:     -> Evolving tree number 155 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 829 trees processed; elapsed 6.40 h
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 97 {1}
+45:     -> Evolving tree number 187 {1}
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     -> Evolving tree number 80 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 832 trees processed; elapsed 6.45 h
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+03:     -> Evolving tree number 229 {1}
+21:     -> Evolving tree number 115 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 834 trees processed; elapsed 6.47 h
+35:     -> Evolving tree number 53 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 109 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 836 trees processed; elapsed 6.49 h
+11:     -> Evolving tree number 173 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+41:     -> Evolving tree number 95 {1}
+26:     -> Evolving tree number 110 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+33:     -> Evolving tree number 103 {1}
+25:     -> Evolving tree number 63 {1}
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     -> Evolving tree number 75 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     Progress: 842 trees processed; elapsed 6.51 h
+24:     -> Evolving tree number 112 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 76 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 844 trees processed; elapsed 6.53 h
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+04:     -> Evolving tree number 180 {1}
+31:     -> Evolving tree number 153 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+38:     -> Evolving tree number 2 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+10:     -> Evolving tree number 174 {1}
+02:     -> Evolving tree number 134 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 849 trees processed; elapsed 6.57 h
+46:     -> Evolving tree number 90 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+06:     -> Evolving tree number 130 {1}
+00:     -> Evolving tree number 136 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+05:     -> Evolving tree number 35 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 183 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+16:     Progress: 854 trees processed; elapsed 6.58 h
+16:     -> Evolving tree number 24 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 58 {1}
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+15:     -> Evolving tree number 73 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 857 trees processed; elapsed 6.61 h
+43:     -> Evolving tree number 93 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+47:     -> Evolving tree number 89 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     -> Evolving tree number 142 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     Progress: 860 trees processed; elapsed 6.63 h
+44:     -> Evolving tree number 44 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 129 {1}
+40:         Output tree data at t=13.80 Gyr (output 1 of 1)
+40:     <- Finished tree
+40:     Progress: 862 trees processed; elapsed 6.66 h
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+08:     Progress: 864 trees processed; elapsed 6.68 h
+20:     -> Evolving tree number 164 {1}
+08:     -> Evolving tree number 32 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+29:     -> Evolving tree number 107 {1}
+19:     -> Evolving tree number 117 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 119 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 868 trees processed; elapsed 6.71 h
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+14:     -> Evolving tree number 74 {1}
+03:     -> Evolving tree number 181 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     -> Evolving tree number 49 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 102 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 139 {1}
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+26:     Progress: 873 trees processed; elapsed 6.73 h
+26:     -> Evolving tree number 62 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+23:     -> Evolving tree number 17 {1}
+21:     -> Evolving tree number 67 {1}
+09:     -> Evolving tree number 79 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     Progress: 877 trees processed; elapsed 6.77 h
+28:     -> Evolving tree number 60 {1}
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+12:     -> Evolving tree number 28 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 879 trees processed; elapsed 6.79 h
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+06:     -> Evolving tree number 82 {1}
+37:     -> Evolving tree number 99 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+10:     -> Evolving tree number 126 {1}
+11:     -> Evolving tree number 125 {1}
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     -> Evolving tree number 70 {1}
+16:         Output tree data at t=13.80 Gyr (output 1 of 1)
+16:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 885 trees processed; elapsed 6.81 h
+13:     -> Evolving tree number 27 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+32:     -> Evolving tree number 104 {1}
+25:     -> Evolving tree number 15 {1}
+27:     -> Evolving tree number 61 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 889 trees processed; elapsed 6.83 h
+04:     -> Evolving tree number 132 {1}
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+47:     -> Evolving tree number 41 {1}
+02:     -> Evolving tree number 86 {1}
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 892 trees processed; elapsed 6.85 h
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+46:     -> Evolving tree number 42 {1}
+24:     -> Evolving tree number 64 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+41:     -> Evolving tree number 47 {1}
+36:     -> Evolving tree number 100 {1}
+38:         Output tree data at t=13.80 Gyr (output 1 of 1)
+38:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 897 trees processed; elapsed 6.89 h
+00:     -> Evolving tree number 88 {1}
+05:         Output tree data at t=13.80 Gyr (output 1 of 1)
+05:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+22:     -> Evolving tree number 66 {1}
+15:     -> Evolving tree number 25 {1}
+44:         Output tree data at t=13.80 Gyr (output 1 of 1)
+44:     <- Finished tree
+44:     Progress: 901 trees processed; elapsed 6.91 h
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     -> Evolving tree number 45 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 116 {1}
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     -> Evolving tree number 5 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     Progress: 905 trees processed; elapsed 6.94 h
+29:     -> Evolving tree number 59 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 906 trees processed; elapsed 6.98 h
+33:     -> Evolving tree number 55 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 135 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 105 {1}
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+28:     -> Evolving tree number 12 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+42:     Progress: 910 trees processed; elapsed 7.00 h
+42:     -> Evolving tree number 94 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+30:     -> Evolving tree number 10 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 71 {1}
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+09:     -> Evolving tree number 31 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+39:     Progress: 914 trees processed; elapsed 7.02 h
+39:     -> Evolving tree number 1 {1}
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     -> Evolving tree number 69 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+07:     -> Evolving tree number 81 {1}
+21:     -> Evolving tree number 19 {1}
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 918 trees processed; elapsed 7.05 h
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+36:     -> Evolving tree number 52 {1}
+32:     -> Evolving tree number 56 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     -> Evolving tree number 78 {1}
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+14:     Progress: 921 trees processed; elapsed 7.07 h
+14:     -> Evolving tree number 26 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     -> Evolving tree number 77 {1}
+25:         Output tree data at t=13.80 Gyr (output 1 of 1)
+25:     <- Finished tree
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     -> Evolving tree number 54 {1}
+23:         Output tree data at t=13.80 Gyr (output 1 of 1)
+23:     <- Finished tree
+23:     Progress: 925 trees processed; elapsed 7.09 h
+47:         Output tree data at t=13.80 Gyr (output 1 of 1)
+47:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     Progress: 927 trees processed; elapsed 7.11 h
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 68 {1}
+45:     -> Evolving tree number 91 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+27:     -> Evolving tree number 13 {1}
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+04:     -> Evolving tree number 84 {1}
+18:     -> Evolving tree number 22 {1}
+41:         Output tree data at t=13.80 Gyr (output 1 of 1)
+41:     <- Finished tree
+41:     Progress: 932 trees processed; elapsed 7.14 h
+08:         Output tree data at t=13.80 Gyr (output 1 of 1)
+08:     <- Finished tree
+35:         Output tree data at t=13.80 Gyr (output 1 of 1)
+35:     <- Finished tree
+35:     Progress: 934 trees processed; elapsed 7.16 h
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+29:     -> Evolving tree number 11 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+24:     -> Evolving tree number 16 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+06:     Progress: 937 trees processed; elapsed 7.19 h
+06:     -> Evolving tree number 34 {1}
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+42:     -> Evolving tree number 46 {1}
+37:     -> Evolving tree number 51 {1}
+30:         Output tree data at t=13.80 Gyr (output 1 of 1)
+30:     <- Finished tree
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+12:         Output tree data at t=13.80 Gyr (output 1 of 1)
+12:     <- Finished tree
+26:     -> Evolving tree number 14 {1}
+43:         Output tree data at t=13.80 Gyr (output 1 of 1)
+43:     <- Finished tree
+43:     Progress: 943 trees processed; elapsed 7.21 h
+46:         Output tree data at t=13.80 Gyr (output 1 of 1)
+46:     <- Finished tree
+46:     Progress: 944 trees processed; elapsed 7.23 h
+14:         Output tree data at t=13.80 Gyr (output 1 of 1)
+14:     <- Finished tree
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+15:         Output tree data at t=13.80 Gyr (output 1 of 1)
+15:     <- Finished tree
+02:     -> Evolving tree number 38 {1}
+21:         Output tree data at t=13.80 Gyr (output 1 of 1)
+21:     <- Finished tree
+13:         Output tree data at t=13.80 Gyr (output 1 of 1)
+13:     <- Finished tree
+13:     Progress: 949 trees processed; elapsed 7.25 h
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+36:     Progress: 950 trees processed; elapsed 7.28 h
+36:     -> Evolving tree number 4 {1}
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+28:         Output tree data at t=13.80 Gyr (output 1 of 1)
+28:     <- Finished tree
+03:     -> Evolving tree number 133 {1}
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     -> Evolving tree number 33 {1}
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 57 {1}
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+10:     Progress: 955 trees processed; elapsed 7.30 h
+10:     -> Evolving tree number 30 {1}
+39:         Output tree data at t=13.80 Gyr (output 1 of 1)
+39:     <- Finished tree
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 957 trees processed; elapsed 7.34 h
+19:     -> Evolving tree number 21 {1}
+24:         Output tree data at t=13.80 Gyr (output 1 of 1)
+24:     <- Finished tree
+09:         Output tree data at t=13.80 Gyr (output 1 of 1)
+09:     <- Finished tree
+42:         Output tree data at t=13.80 Gyr (output 1 of 1)
+42:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     -> Evolving tree number 18 {1}
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+32:     -> Evolving tree number 8 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 963 trees processed; elapsed 7.35 h
+11:     -> Evolving tree number 29 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 87 {1}
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     -> Evolving tree number 7 {1}
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+17:     -> Evolving tree number 23 {1}
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 967 trees processed; elapsed 7.41 h
+34:     -> Evolving tree number 6 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     -> Evolving tree number 3 {1}
+06:         Output tree data at t=13.80 Gyr (output 1 of 1)
+06:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+04:     Progress: 970 trees processed; elapsed 7.43 h
+04:     -> Evolving tree number 36 {1}
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+20:     -> Evolving tree number 20 {1}
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+45:     -> Evolving tree number 43 {1}
+29:         Output tree data at t=13.80 Gyr (output 1 of 1)
+29:     <- Finished tree
+18:         Output tree data at t=13.80 Gyr (output 1 of 1)
+18:     <- Finished tree
+18:     Progress: 974 trees processed; elapsed 7.46 h
+26:         Output tree data at t=13.80 Gyr (output 1 of 1)
+26:     <- Finished tree
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     -> Evolving tree number 40 {1}
+27:         Output tree data at t=13.80 Gyr (output 1 of 1)
+27:     <- Finished tree
+22:         Output tree data at t=13.80 Gyr (output 1 of 1)
+22:     <- Finished tree
+22:     Progress: 978 trees processed; elapsed 7.49 h
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     -> Evolving tree number 85 {1}
+11:         Output tree data at t=13.80 Gyr (output 1 of 1)
+11:     <- Finished tree
+11:     Progress: 980 trees processed; elapsed 7.51 h
+07:         Output tree data at t=13.80 Gyr (output 1 of 1)
+07:     <- Finished tree
+07:     Progress: 981 trees processed; elapsed 7.53 h
+36:         Output tree data at t=13.80 Gyr (output 1 of 1)
+36:     <- Finished tree
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     -> Evolving tree number 39 {1}
+02:         Output tree data at t=13.80 Gyr (output 1 of 1)
+02:     <- Finished tree
+02:     Progress: 984 trees processed; elapsed 7.56 h
+10:         Output tree data at t=13.80 Gyr (output 1 of 1)
+10:     <- Finished tree
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     -> Evolving tree number 9 {1}
+37:         Output tree data at t=13.80 Gyr (output 1 of 1)
+37:     <- Finished tree
+37:     Progress: 987 trees processed; elapsed 7.58 h
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+33:         Output tree data at t=13.80 Gyr (output 1 of 1)
+33:     <- Finished tree
+33:     Progress: 989 trees processed; elapsed 7.61 h
+19:         Output tree data at t=13.80 Gyr (output 1 of 1)
+19:     <- Finished tree
+19:     Progress: 990 trees processed; elapsed 7.63 h
+17:         Output tree data at t=13.80 Gyr (output 1 of 1)
+17:     <- Finished tree
+20:         Output tree data at t=13.80 Gyr (output 1 of 1)
+20:     <- Finished tree
+45:         Output tree data at t=13.80 Gyr (output 1 of 1)
+45:     <- Finished tree
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 994 trees processed; elapsed 7.67 h
+03:     -> Evolving tree number 37 {1}
+01:         Output tree data at t=13.80 Gyr (output 1 of 1)
+01:     <- Finished tree
+01:     Progress: 995 trees processed; elapsed 7.71 h
+32:         Output tree data at t=13.80 Gyr (output 1 of 1)
+32:     <- Finished tree
+04:         Output tree data at t=13.80 Gyr (output 1 of 1)
+04:     <- Finished tree
+34:         Output tree data at t=13.80 Gyr (output 1 of 1)
+34:     <- Finished tree
+34:     Progress: 998 trees processed; elapsed 7.74 h
+31:         Output tree data at t=13.80 Gyr (output 1 of 1)
+31:     <- Finished tree
+31:     Progress: 999 trees processed; elapsed 7.76 h
+03:         Output tree data at t=13.80 Gyr (output 1 of 1)
+03:     <- Finished tree
+03:     Progress: 1000 trees processed; elapsed 7.81 h
+MM:     Run-time summary: 1000 trees in 7.81 h wall time (14.73 d core-time); mean 21.2 m/tree, max 42.5 m/tree.
+MM: <- Done task: merger tree evolution
+MM: The Johnson et al. (2021) scale radius energy model failed (the total energy was positive, so the scale radius of the primary progenitor was used unchanged) for 0 of the 87985681 nodes to which it was applied (0e-4). This rate depends on both mass resolution and power spectrum, so treat it as a systematic when calibrating this model.

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dark matter subhalo evolution model -->
+<parameters>
+  <formatVersion>2</formatVersion>
+  <lastModified revision="d4bf2d8db876eb8e44d94e1672bc36a6ea8135cc" time="2025-09-03T18:23:58"/>
+  <!-- Include required parameters -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/darkMatterParticleCDM.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/cosmologyDarkMatterOnly.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/powerSpectrum.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/structureFormation.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/darkMatterHalosProfile.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/darkMatterHalosTidalHeating.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/darkMatterHalosStructure.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/subhaloOrbits.xml" xpointer="xpointer(parameters/*)"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../parameters/reference/evolutionDarkMatterOnly.xml" xpointer="xpointer(parameters/*)"/>
+  <!-- Random number generation -->
+  <randomNumberGenerator value="GSL">
+    <seed value="555666"/>
+  </randomNumberGenerator>
+  <!-- Task -->
+  <task value="evolveForests"/>
+  <!-- Merger tree building options -->
+  <mergerTreeSeeds value="random"/>
+  <mergerTreeConstructor value="build">
+    <redshiftBase value="0.0"/>
+  </mergerTreeConstructor>
+  <mergerTreeBranchingProbability value="parkinsonColeHelly">
+    <G0 value="+0.57"/>
+    <gamma1 value="+0.38"/>
+    <gamma2 value="-0.01"/>
+    <accuracyFirstOrder value="+0.10"/>
+  </mergerTreeBranchingProbability>
+  <mergerTreeBuildMasses value="fixedMass">
+    <massTree value="1.02e12"/>
+    <treeCount value="4096"/>
+  </mergerTreeBuildMasses>
+  <mergerTreeMassResolution value="fixed">
+    <massResolution value="1.0e7"/>
+  </mergerTreeMassResolution>
+  <mergerTreeBuilder value="constrained">
+    <trialCountMaximum value="2000"/>
+    <!-- LMC -->
+    <mergerTreeBuilder value="cole2000">
+      <accretionLimit value="0.1"/>
+      <mergeProbability value="0.1"/>
+      <mergerTreeBuildController value="massTimeWindow">
+        <massMinimum value="6e10"/>
+        <timeMinimum value="12.2"/>
+      </mergerTreeBuildController>
+    </mergerTreeBuilder>
+    <mergerTreeFilter value="anyNode">
+      <!-- Label as LMC -->
+      <label value="LMC"/>
+      <labelDescription value="Label indicating if this node is on the LMC branch."/>
+      <labelBranch value="true"/>
+      <!-- Apply all LMC conditions -->
+      <galacticFilter value="all">
+        <!-- The LMC is not on the main branch (it merges with it). -->
+        <galacticFilter value="not">
+          <galacticFilter value="mainBranch"/>
+        </galacticFilter>
+        <!-- The LMC should have the right mass. -->
+        <galacticFilter value="intervalPass">
+          <nodePropertyExtractor value="massBasic"/>
+          <thresholdLow value="6.0e10"/>
+          <thresholdHigh value="2.5e11"/>
+        </galacticFilter>
+        <galacticFilter value="parentNode">
+          <galacticFilter value="all">
+            <!-- The LMC's parent should be on the main branch. -->
+            <galacticFilter value="mainBranch"/>
+            <!-- The LMC should merge with its parent at the right time. -->
+            <galacticFilter value="intervalPass">
+              <nodePropertyExtractor value="time"/>
+              <thresholdLow value="12.2"/>
+              <thresholdHigh value="12.8"/>
+            </galacticFilter>
+          </galacticFilter>
+        </galacticFilter>
+      </galacticFilter>
+    </mergerTreeFilter>
+    <!-- GSE -->
+    <mergerTreeBuilder value="cole2000">
+      <accretionLimit value="0.1"/>
+      <mergeProbability value="0.1"/>
+      <mergerTreeBuildController value="massTimeWindow">
+        <massMinimum value="1.3e11"/>
+        <timeMinimum value="2.8"/>
+      </mergerTreeBuildController>
+    </mergerTreeBuilder>
+    <mergerTreeFilter value="anyNode">
+      <!-- Label as GSE -->
+      <label value="GSE"/>
+      <labelDescription value="Label indicating if this node is on the GSE branch."/>
+      <labelBranch value="false"/>
+      <!-- Apply all GSE conditions -->
+      <galacticFilter value="all">
+        <!-- The GSE is not on the main branch (it merges with it). -->
+        <galacticFilter value="not">
+          <galacticFilter value="mainBranch"/>
+        </galacticFilter>
+        <!-- The GSE should have the right mass. -->
+        <galacticFilter value="intervalPass">
+          <nodePropertyExtractor value="massBasic"/>
+          <thresholdLow value="1.3e11"/>
+          <thresholdHigh value="2.5e11"/>
+        </galacticFilter>
+        <galacticFilter value="parentNode">
+          <galacticFilter value="all">
+            <!-- The GSE's parent should be on the main branch. -->
+            <galacticFilter value="mainBranch"/>
+            <!-- The GSE should merge with its parent at the right time. -->
+            <galacticFilter value="intervalPass">
+              <nodePropertyExtractor value="time"/>
+              <thresholdLow value="2.8"/>
+              <thresholdHigh value="5.8"/>
+            </galacticFilter>
+          </galacticFilter>
+        </galacticFilter>
+      </galacticFilter>
+    </mergerTreeFilter>
+    <!-- Free -->
+    <mergerTreeBuilder value="cole2000">
+      <accretionLimit value="0.1"/>
+      <mergeProbability value="0.1"/>
+      <mergerTreeBuildController value="uncontrolled"/>
+    </mergerTreeBuilder>
+    <mergerTreeFilter value="always"/>
+  </mergerTreeBuilder>
+  <virialDensityContrastDefinition value="bryanNorman1998"/>
+  <nodePropertyExtractor value="multi" id="outputExtractor">
+    <nodePropertyExtractor value="nodeIndices"/>
+    <nodePropertyExtractor value="labels"/>
+    <nodePropertyExtractor value="mainBranchStatus"/>
+    <nodePropertyExtractor value="time"/>
+    <nodePropertyExtractor value="redshift"/>
+    <nodePropertyExtractor value="massBasic"/>
+    <nodePropertyExtractor value="massBound"/>
+    <nodePropertyExtractor value="peakHeight"/>
+    <nodePropertyExtractor value="velocityMaximum"/>
+    <nodePropertyExtractor value="radiusVirial"/>
+    <nodePropertyExtractor value="radiusVelocityMaximum"/>
+    <nodePropertyExtractor value="satelliteMinimumDistance"/>
+    <nodePropertyExtractor value="velocityOrbitalRadial"/>
+  </nodePropertyExtractor>
+  <mergerTreeOperator value="sequence">
+    <mergerTreeOperator value="outputStructure"/>
+    <nodePropertyExtractor value="multi">
+      <nodePropertyExtractor value="time"/>
+      <nodePropertyExtractor value="massBasic"/>
+      <nodePropertyExtractor value="labels"/>
+      <nodePropertyExtractor value="mainBranchStatus"/>
+      <nodePropertyExtractor value="nodeIndices"/>
+      <nodePropertyExtractor value="positionOrbital"/>
+      <nodePropertyExtractor value="velocityOrbital"/>
+    </nodePropertyExtractor>
+  </mergerTreeOperator>
+  <!-- Output options -->
+  <outputFileName value="/home/wisha/work/scratchLink/bigRun-t15-v3.hdf5"/>
+  <outputTimes value="union">
+    <outputTimes value="list">
+      <redshifts value="2.0 1.0"/>
+    </outputTimes>
+    <outputTimes value="uniformSpacingInTime">
+      <timeMinimum value="13.00"/>
+      <timeMaximum value="15.00"/>
+      <countTimes value="101"/>
+    </outputTimes>
+  </outputTimes>
+  <mergerTreeOutputter value="multi">
+    <mergerTreeOutputter value="timeFiltered">
+      <outputTimes value="list">
+        <redshifts value="2.0 1.0"/>
+        <times value="13.80 15.00"/>
+      </outputTimes>
+      <mergerTreeOutputter value="standard">
+        <outputsGroupName value="OutputsT"/>
+        <nodePropertyExtractor idRef="outputExtractor"/>
+      </mergerTreeOutputter>
+    </mergerTreeOutputter>
+    <!-- <mergerTreeOutputter value="nodeFilteredScalar">
+      <nodeToExtractFrom value="LMC"/>
+      <nodePropertyExtractor value="velocityOrbitalRadial"/>
+      <multiplyBy value="1.0"/>
+      <addBy value="0.0"/>
+      <mergerTreeOutputter value="standard">
+        <outputsGroupName value="OutputsE00"/>
+        <nodePropertyExtractor idRef="outputExtractor"/>
+      </mergerTreeOutputter>
+    </mergerTreeOutputter> -->
+    
+    <mergerTreeOutputter value="nodeFilteredScalar">
+      <nodeToExtractFrom value="LMC"/>
+      <nodePropertyExtractor value="velocityOrbitalRadial"/>
+      <multiplyBy value="1.0"/>
+      <addBy value="0.0"/>
+      <mergerTreeOutputter value="standard">
+        <outputsGroupName value="OutputsE00"/>
+        <nodePropertyExtractor idRef="outputExtractor"/>
+      </mergerTreeOutputter>
+    </mergerTreeOutputter>
+    <mergerTreeOutputter value="nodeFilteredScalar">
+      <nodeToExtractFrom value="LMC"/>
+      <nodePropertyExtractor value="velocityOrbitalRadial"/>
+      <multiplyBy value="1.0"/>
+      <addBy value="-32.0"/>
+      <mergerTreeOutputter value="standard">
+        <outputsGroupName value="OutputsE32"/>
+        <nodePropertyExtractor idRef="outputExtractor"/>
+      </mergerTreeOutputter>
+    </mergerTreeOutputter>
+    <mergerTreeOutputter value="nodeFilteredScalar">
+      <nodeToExtractFrom value="LMC"/>
+      <nodePropertyExtractor value="velocityOrbitalRadial"/>
+      <multiplyBy value="1.0"/>
+      <addBy value="-64.0"/>
+      <mergerTreeOutputter value="standard">
+        <outputsGroupName value="OutputsE64"/>
+        <nodePropertyExtractor idRef="outputExtractor"/>
+      </mergerTreeOutputter>
+    </mergerTreeOutputter>
+  </mergerTreeOutputter>
+</parameters>

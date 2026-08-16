@@ -1,0 +1,31 @@
+              ##                                     
+   ####        #                  #                  
+  #   #        #             #                       
+ #       ###   #  ###   ### ###  ##   ### ## ##   ## 
+ #       #  #  #  #  # #  #  #    #  #  #  #  #  #   
+ #   ###  ###  #   ### #     #    #  #     #  #   #  
+  #   #  #  #  #  #  # #     #    #  #     #  #    # 
+   ####  #### ### ####  ###   ## ###  ###   #### ##  
+
+ © 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016,
+   2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+   2025, 2026                                     
+   - Andrew Benson
+
+MM: NOTE: datasets are being read from /home/sackah/Galacticus/datasets/static/
+MM: WARNING: parameter file may be missing important parameter updates - consider updating by running:
+
+              ./scripts/aux/parametersMigrate.py /home/sackah/milkyway/parameter_files/baryonsMilkyWay.xml newParameterFile.xml
+
+MM: -> Begin task: merger tree evolution
+38:     NOTE: memory available (128.000 GB) determined from SLURM
+38:     Memory usage: 403.583 MB / 128.000 GB
+00:     Memory usage: 686.629 MB / 128.000 GB
+00:     -> Evolving tree number 1 {1}
+00:         Memory usage: 1.511 GB / 128.000 GB
+00:         Output tree data at t=13.80 Gyr (output 1 of 1)
+00:     <- Finished tree
+00:     Progress: 1 trees processed; elapsed 11.5 m
+MM:     Run-time summary: 1 trees in 11.5 m wall time (11.5 m core-time); mean 11.5 m/tree, max 11.5 m/tree.
+MM: <- Done task: merger tree evolution
+MM: The Johnson et al. (2021) scale radius energy model failed (the total energy was positive, so the scale radius of the primary progenitor was used unchanged) for 0 of the 89725 nodes to which it was applied (0e-4). This rate depends on both mass resolution and power spectrum, so treat it as a systematic when calibrating this model.
